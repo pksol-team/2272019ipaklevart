@@ -1,0 +1,1367 @@
+/*
+
+ * Title:   Custom Style File
+
+ * Author:  http://themeforest.net/user/soaptheme 
+
+ */
+
+
+
+.row .form-group-custom {
+
+	display: inline-block;
+
+}
+
+
+
+.mewtwo-widget--b6d30bbc462457d1bcc37a5aa8ec4975 .mewtwo-hotels {
+
+	border: none !important;
+
+}
+
+
+
+/*header.mewtwo-hotels-header {
+
+    margin-bottom: 15px !important;
+
+	display: none !important;
+
+}*/
+
+.mewtwo-hotels-container header.mewtwo-hotels-header:before, .mewtwo-hotels-container header.mewtwo-hotels-header:after {
+
+	content: "" !important;
+
+	display: none !important;
+
+}
+
+
+
+.mewtwo-hotels-city-icon{
+
+	display: none !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-city label.mewtwo-placeholder-label {
+
+	display: none !important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-city{
+
+    width: 24% !important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-city input{
+
+    border-color: #a6c8ff!important;
+
+    border: 0 !important;
+
+    background-color: #f5f5f5 !important;
+
+    outline: none !important;
+
+    height: 34px !important;
+
+	font-size: 12px !important;
+
+	padding: 0 15px !important;
+
+    width: 100% !important;
+
+    box-shadow: none !important;
+
+    border-radius: 0 !important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-city input:focus{
+
+	padding: 0 15px !important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-city input::placeholder{
+
+	color: #757575 !important;
+
+	font-size: 12px !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-hotels-city .mewtwo-hotels-city-location {
+
+	top: 64px !important
+
+}
+
+.mewtwo-widget .mewtwo-hotels-city .mewtwo-hotels-city-location span{
+
+	font-size: 12px !important;
+
+}
+
+.mewtwo-widget .mewtwo-hotels-city .mewtwo-hotels-city-location:after{
+
+	background: linear-gradient(to right,#f5f5f547 10%,#f5f5f5 20%)!important;
+
+}
+
+
+
+.mewtwo-input-icons{
+
+	
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-dates{
+
+	
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-dates:before{
+
+	display: none !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-dates input{
+
+    border-color: #a6c8ff!important;
+
+    border: 0 !important;
+
+    background-color: #f5f5f5 !important;
+
+    outline: none !important;
+
+    height: 34px !important;
+
+	font-size: 12px !important;
+
+	padding: 0 15px !important;
+
+    width: 100% !important;
+
+    box-shadow: none !important;
+
+    border-radius: 0 !important;
+
+    border-right: 0 !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-dates input:focus{
+
+	padding: 0 15px !important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-dates input::placeholder{
+
+	color: #757575 !important;
+
+	font-size: 12px !important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-dates label.mewtwo-placeholder-label{
+
+	display: none !important;
+
+}
+
+
+
+.mewtwo-hotels-dates.mewtwo-hotels-dates--new div > div:last-child {
+
+    height: 34px !important;
+
+    background-color: #fdb714 !important;
+
+    background-image: none !important;
+
+    font-size: 30px !important;
+
+    text-align: center !important;
+
+    width: 35px !important;
+
+    top: unset !important;
+
+    bottom: 0 !important;
+
+}
+
+.mewtwo-hotels-dates.mewtwo-hotels-dates--new div > div:last-child::after {
+
+    content: "\e86a" !important;
+
+    font-family: "soap-icons" !important;
+
+    width: 35px !important;
+
+    height: 100% !important;
+
+    text-align: center !important;
+
+    color: #fff !important;
+
+    font-size: 25px !important;
+
+    line-height: 34px !important;
+
+}
+
+.mewtwo-hotels-dates.mewtwo-hotels-dates--new div > div:last-child::before{
+
+	display:none !important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-dates .mewtwo-hotels-dates-checkin-icons:before {
+
+	background: linear-gradient(to right,#f5f5f547 10%,#f5f5f5 20%)!important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-dates .mewtwo-hotels-dates-checkin {
+
+	float: left !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-dates .mewtwo-hotels-dates-checkout {
+
+	float: right !important;
+
+}
+
+.mewtwo-hotels-dates.mewtwo-hotels-dates--new > div {
+
+	display: block !important;
+
+	width: 48% !important;
+
+    position: relative !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-guests {
+
+	position: absolute !important;
+
+    left: 9999px !important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-dates .mewtwo-hotels-dates-checkout .form-group-custom h4{
+
+	margin: 10px 0 !important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .form-group-custom {
+
+	margin-bottom: 10px !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-submit_button {
+
+	
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-submit_button button{
+
+    font-size: 0.9167em !important;
+
+    font-weight: bold !important;
+
+    background: #98ce44 !important;
+
+    height: 34px !important;
+
+    line-height: 34px !important;
+
+    border-radius: 0 !important;
+
+    box-shadow: none !important;
+
+    position: relative !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-submit_button button:after{	
+
+    content: "" !important;
+
+    position: absolute !important;
+
+    width: 30px !important;
+
+    height: 34px !important;
+
+    background: url(../images/icon-check.png) no-repeat center center #7db921 !important;
+
+    right: 0px !important;
+
+
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form > .form-group-custom {
+
+    width: 25% !important;;
+
+    position: relative !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form > .form-group-custom {
+
+    margin: 0 -10px !important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form > .form-group-custom .selector{
+
+	position: relative !important;
+
+    min-width: 60px !important;
+
+    line-height: 0 !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form > .form-group-custom .selector select{
+
+    position: absolute !important;
+
+    z-index: 1 !important;
+
+    opacity: 0 !important;
+
+    width: 100% !important;
+
+    line-height: 30px !important;
+
+    height: 34px !important;
+
+    padding: 8px 0 8px 8px !important;
+
+    background: #f5f5f5 !important;
+
+    border: none !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form > .form-group-custom .selector span.custom-select{
+
+    display: inline-block !important;
+
+    line-height: 32px !important;
+
+    padding: 0 10px !important;
+
+    position: relative !important;
+
+    width: 100% !important;
+
+    overflow: hidden !important;
+
+    white-space: nowrap !important;
+
+    height: 34px !important;
+
+    background: #f5f5f5 !important;
+
+    border: none !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form > .form-group-custom .selector span.custom-select:before{
+
+    position: absolute !important;
+
+    right: 0 !important;
+
+    top: 0 !important;
+
+    content: '' !important;
+
+    background: #fdb714 !important;
+
+    width: 24px !important;
+
+    height: 100% !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form > .form-group-custom .selector span.custom-select:after{
+
+    position: absolute !important;
+
+    right: 9px !important;
+
+    top: 15px !important;
+
+    border-top: 5px solid #fff !important;
+
+    border-left: 3px solid transparent !important;
+
+    border-right: 3px solid transparent !important;
+
+    content: "" !important;
+
+}
+
+
+
+
+
+#hotel-features .tab-content ul{
+
+    margin-left: 30px;
+
+}
+
+
+
+#hotel-features .tab-content ul li label{
+
+    margin-right: 75px;
+
+    width: 142px;
+
+}
+
+
+
+
+
+/* Bilal CSS Start */
+
+
+
+.mewtwo-widget section.mewtwo-hotels form > .form-group-custom {
+
+    margin: 0 !important;
+
+    float: left !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-city {
+
+    float: left !important;
+
+        margin: 0 !important;
+
+    margin-right: 2% !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-hotels-dates {
+
+    float: left !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form > .form-group-custom .col-xs-4 {
+
+    float: left !important;
+
+    padding: 0 10px !important;
+
+    width: 33.33333333%;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form > .form-group-custom .selector {
+
+    margin-top: 9px !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-submit_button {
+
+    margin-top: 61px !important;
+
+    
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .form-group-custom {
+
+    margin-bottom: 9px !important;
+
+}
+
+
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-submit_button button {
+
+    font-size: 15px !important;
+
+}
+
+
+
+header.mewtwo-hotels-header.mewtwo-hotels-header--light {
+
+    display: none !important;
+
+}
+
+
+
+section.mewtwo-best_offers.mewtwo-best_offers--hidden {
+
+    display: none !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-hotels-city .mewtwo-hotels-city-location span {
+
+    font-size: 12px !important;
+
+    line-height: 29px !important;
+
+}
+
+
+
+.mewtwo-hotels--l .mewtwo-widget .mewtwo-hotels-dates {
+
+    width: 27% !important;
+
+}
+
+.mewtwo-widget section.mewtwo-hotels form .form-group-custom .row {
+
+    margin: 0 -10px !important;
+
+}
+
+.mewtwo-widget .mewtwo-hotels {
+
+    padding: 20px 0px 0!important;
+
+}
+
+.detailed-rating li .five-stars-container:before {
+
+    /*position: unset !important;*/
+
+}
+
+/*  */
+
+.mewtwo-widget .mewtwo-flights-header {
+
+    display: none !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights {
+
+    border: none !important;
+
+    padding: 20px 0px 0!important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights-origin > label {
+
+    display: none !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights-origin__iata {
+
+    display: none !important;
+
+}
+
+
+
+.mewtwo-swap_button {
+
+    display: none !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights-origin>input[type=text], .mewtwo-widget .mewtwo-flights .mewtwo-flights-destination input {
+
+    border-color: #a6c8ff!important;
+
+    border: 0 !important;
+
+    background-color: #f5f5f5 !important;
+
+    outline: none !important;
+
+    height: 34px !important;
+
+    font-size: 12px !important;
+
+    padding: 0 15px !important;
+
+    width: 100% !important;
+
+    box-shadow: none !important;
+
+    border-radius: 0 !important;
+
+}
+
+.mewtwo-widget .mewtwo-flights-origin .form-group-custom {
+
+    margin-bottom: 9px !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights-origin-country {
+
+    top: 67px !important;
+
+}
+
+
+
+.mewtwo-flights-origin {
+
+    width: 24% !important;
+
+    margin-right: 2% !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-origin {
+
+    width: 100% !important;
+
+    /* margin-right: 2% !important; */
+
+    float: left !important;
+
+}
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-destination {
+
+    width: 100% !important;
+
+    float: left;
+
+}
+
+.mewtwo-widget .mewtwo-flights-origin-country__name {
+
+    line-height: 22px !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights-origin .mewtwo-filled~.mewtwo-flights-origin-country:after{
+
+    display: none !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights-origin .mewtwo-hotels-guests__text:focus, .mewtwo-widget .mewtwo-flights-origin>input[type=text]:focus, .mewtwo-widget .mewtwo-flights .mewtwo-flights-destination input:focus  {
+
+    padding: 0 15px !important;
+
+}
+
+.mewtwo-widget .mewtwo-flights-origin .mewtwo-hotels-guests__text:focus, .mewtwo-widget .mewtwo-flights-origin>input[type=text]::placeholder, .mewtwo-widget .mewtwo-flights .mewtwo-flights-destination input::placeholder {
+
+color: #757575 !important;
+
+    font-size: 12px !important;
+
+}
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-destination > label {
+
+    display: none !important;
+
+}
+
+.mewtwo-widget .mewtwo-flights .two-slextion {
+
+    float: left !important;
+
+    width: 24% !important;
+
+    margin-right: 2% !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-destination {
+
+    margin-top: 14px !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-destination label {
+
+    margin-bottom: 9px !important;
+
+}
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-dates.mewtwo-flights-dates--new {
+
+    float: left !important;
+
+    width: 30% !important;
+
+    margin-right: 2% !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-dates.mewtwo-flights-dates--new > div {
+
+    float: left !important;
+
+    width: 100% !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-dates.mewtwo-flights-dates--new > div > label {
+
+    display: none !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-dates.mewtwo-flights-dates--new > div > input {
+
+    border-radius: 4px 0 0 4px!important;
+
+    border-right-color: transparent!important;
+
+    border-color: #a6c8ff!important;
+
+    border: 0 !important;
+
+    background-color: #f5f5f5 !important;
+
+    outline: none !important;
+
+    height: 34px !important;
+
+    font-size: 12px !important;
+
+    padding: 0 15px !important;
+
+    width: 100% !important;
+
+    box-shadow: none !important;
+
+    border-right: 0 !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-dates.mewtwo-flights-dates--new::before {
+
+    display: none !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-dates.mewtwo-flights-dates--new > div > div:before {
+
+    display: none !important;
+
+}
+
+.mewtwo-widget .mewtwo-flights-dates-depart-icons::after {
+
+    content: "\e86a" !important;
+
+    font-family: "soap-icons" !important;
+
+    width: 35px !important;
+
+    height: 100% !important;
+
+    text-align: center !important;
+
+    color: #fff !important;
+
+    font-size: 25px !important;
+
+    line-height: 34px !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights-dates-depart-icons {
+
+    height: 34px !important;
+
+    background-color: #fdb714 !important;
+
+    background-image: none !important;
+
+    font-size: 30px !important;
+
+    text-align: center !important;
+
+    width: 35px !important;
+
+    top: unset !important;
+
+    bottom: 0 !important;
+
+    right: 1px !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights-dates-return-iconsx {
+
+    height: 34px !important;
+
+    background-color: #fdb714 !important;
+
+    background-image: none !important;
+
+    font-size: 30px !important;
+
+    text-align: center !important;
+
+    width: 35px !important;
+
+    top: unset !important;
+
+    right: 1px !important;
+
+    bottom: 0 !important;
+
+    border-radius: 0 !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights-dates-return-iconsx.mewtwo-input-icons::after {
+
+    font-family: "soap-icons" !important;
+
+    width: 35px !important;
+
+    height: 100% !important;
+
+    text-align: center !important;
+
+    color: #fff !important;
+
+    font-size: 25px !important;
+
+    line-height: 34px !important;
+
+    content: "\e86a" !important;
+
+}
+
+
+
+.mewtwo-widget--f3472ad320b2850d66b1defb00573f3f .mewtwo-flights-dates-return-iconsx:hover {
+
+    opacity: 1 !important;
+
+}
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-dates.mewtwo-flights-dates--new > div .form-group-custom {
+
+    margin-bottom: 9px !important;
+
+}
+
+.mewtwo-widget .mewtwo-flights .mewtwo-flights-dates.mewtwo-flights-dates--new .mewtwo-flights-dates-return.mewtwo-flights-dates-return--filled {
+
+    margin-top: 14px !important;
+
+}
+
+section.mewtwo-flights.mewtwo-tabs-container .passengers-selection {
+
+    float: left !important;
+
+    width: 24% !important;
+
+}
+
+
+
+section.mewtwo-flights.mewtwo-tabs-container .passengers-selection .col-xs-6, section.mewtwo-flights.mewtwo-tabs-container .passengers-selection .col-xs-6 {
+
+    float: left !important;
+
+    padding: 0 11px !important;
+
+}
+
+
+
+section.mewtwo-flights.mewtwo-tabs-container .passengers-selection .col-xs-6 select.full-width, section.mewtwo-flights.mewtwo-tabs-container .passengers-selection .col-xs-6 select.full-width {
+
+    position: absolute !important;
+
+    z-index: 1 !important;
+
+    opacity: 0 !important;
+
+    width: 100% !important;
+
+    line-height: 30px !important;
+
+    height: 34px !important;
+
+    padding: 8px 0 8px 8px !important;
+
+    background: #f5f5f5 !important;
+
+    border: none !important;
+
+}
+
+
+
+section.mewtwo-flights.mewtwo-tabs-container .passengers-selection .col-xs-6 .selector, section.mewtwo-flights.mewtwo-tabs-container .passengers-selection .col-xs-6 .selector {
+
+    position: relative !important;
+
+    line-height: 0 !important;
+
+    margin-top: 9px !important;
+
+}
+
+
+
+section.mewtwo-flights.mewtwo-tabs-container .passengers-selection .col-xs-6 span.custom-select.full-width, section.mewtwo-flights.mewtwo-tabs-container .passengers-selection .col-xs-6 span.custom-select.full-width {
+
+    display: inline-block !important;
+
+    line-height: 32px !important;
+
+    padding: 0 10px !important;
+
+    position: relative !important;
+
+    width: 100% !important;
+
+    overflow: hidden !important;
+
+    white-space: nowrap !important;
+
+    height: 34px !important;
+
+    background: #f5f5f5 !important;
+
+    border: none !important;
+
+}
+
+
+
+.selector span.custom-select:before {
+
+    position: absolute !important;
+
+    right: 0 !important;
+
+    top: 0 !important;
+
+    content: '' !important;
+
+    background: #fdb714 !important;
+
+    width: 24px !important;
+
+    height: 100% !important;
+
+}
+
+
+
+.selector span.custom-select:after {
+
+    position: absolute !important;
+
+    right: 9px !important;
+
+    top: 15px !important;
+
+    border-top: 5px solid #fff !important;
+
+    border-left: 3px solid transparent !important;
+
+    border-right: 3px solid transparent !important;
+
+    content: "" !important;
+
+}
+
+
+
+section.mewtwo-flights.mewtwo-tabs-container .passengers-selection .row {
+
+    margin: 0 -10px !important;
+
+}
+
+
+
+.col-xs-6.infants-marg {
+
+    margin-top: 14px !important;
+
+}
+
+
+
+section.mewtwo-flights.mewtwo-tabs-container .mewtwo-flights-trip_class {
+
+    position: absolute !important;
+
+    left: 999999999px !important;
+
+}
+
+.mewtwo-widget .mewtwo-flights-submit_button button {
+
+    font-weight: bold !important;
+
+    background: #98ce44 !important;
+
+    height: 34px !important;
+
+    line-height: 34px !important;
+
+    border-radius: 0 !important;
+
+    box-shadow: none !important;
+
+    position: relative !important;
+
+    font-size: 15px !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights-submit_button button:after {
+
+    content: "" !important;
+
+    position: absolute !important;
+
+    width: 30px !important;
+
+    height: 34px !important;
+
+    background: url(../images/icon-check.png) no-repeat center center #7db921 !important;
+
+    right: 0px !important;
+
+}
+
+
+
+.mewtwo-widget .mewtwo-flights-submit_button button:hover {
+
+    background: #98ce44 !important;
+
+}
+
+
+
+section.mewtwo-flights.mewtwo-tabs-container .mewtwo-flights-submit_button.mewtwo-flights-submit_button--new {
+
+    float: right !important;
+
+    width: 16% !important;
+
+    margin-top: 130px !important;
+
+}
+
+.mewtwo-widget .mewtwo-flights form .two-slextion {
+
+    margin-bottom: 30px !important;
+
+}
+
+@media all and (min-width: 992px){
+
+    .mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-submit_button {
+
+        padding-left: 15px !important;
+
+        width: 18% !important;
+
+    }
+
+}
+
+@media all and (max-width:991px){
+
+    .mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-city {
+
+        width: 48% !important;
+
+    }
+
+
+
+    .mewtwo-hotels--l .mewtwo-widget .mewtwo-hotels-dates {
+
+        width: 50% !important;
+
+        margin-right: 0 !important;
+
+    }
+
+
+
+    .mewtwo-widget section.mewtwo-hotels form > .form-group-custom {
+
+        width: 47.5% !important;
+
+        margin-right: 1.0% !important;
+
+    }
+
+
+
+    .mewtwo-hotels--l .mewtwo-widget .mewtwo-hotels-submit_button {
+
+        width: 51.5% !important;
+
+        padding: 0px !important;
+
+    }
+
+    .mewtwo-widget .mewtwo-flights .two-slextion {
+
+        width: 100% !important;
+
+        margin-right: 0 !important;
+
+        margin-bottom: 10px !important;
+
+    }
+
+
+
+    .mewtwo-widget .mewtwo-flights .mewtwo-flights-dates.mewtwo-flights-dates--new {
+
+        width: 50% !important;
+
+    }
+
+
+
+    section.mewtwo-flights.mewtwo-tabs-container .passengers-selection {
+
+        float: right !important;
+
+        width: 48% !important;
+
+    }
+
+
+
+    section.mewtwo-flights.mewtwo-tabs-container .mewtwo-flights-submit_button.mewtwo-flights-submit_button--new {
+
+        width: 100% !important;
+
+        margin-top: 29px !important;
+
+        margin-bottom: 20px !important;
+
+    }
+
+}
+
+@media all and (max-width: 767px){
+
+    .mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-city {
+
+        width: 100% !important;
+
+        margin: 0 !important;
+
+        margin-bottom: 10px !important;
+
+    }
+
+
+
+    .mewtwo-hotels--l .mewtwo-widget .mewtwo-hotels-dates {
+
+        width: 100% !important;
+
+        margin-bottom: 10px !important;
+
+    }
+
+
+
+    .mewtwo-widget section.mewtwo-hotels form > .form-group-custom {
+
+        width: 100% !important;
+
+        margin: 0 !important;
+
+    }
+
+
+
+    .mewtwo-hotels--l .mewtwo-widget .mewtwo-hotels-submit_button {
+
+        width: 100% !important;
+
+        padding: 0 !important;
+
+        margin-top: 50px !important;
+
+    }
+
+    .mewtwo-widget .mewtwo-flights .mewtwo-flights-dates.mewtwo-flights-dates--new {
+
+        width: 100% !important;
+
+    }
+
+
+
+    section.mewtwo-flights.mewtwo-tabs-container .passengers-selection {
+
+        width: 100% !important;
+
+    }
+
+
+
+    section.mewtwo-flights.mewtwo-tabs-container .passengers-selection .col-xs-6 {
+
+        width: 100%;
+
+    }
+
+
+
+    section.mewtwo-flights.mewtwo-tabs-container .passengers-selection .col-xs-6:first-child {
+
+        margin-bottom: 14px !important;
+
+    }
+
+}
+
+
+#header .logo {
+    margin: 0 !important;
+}
+
+
+#main-menu ul.menu {
+    margin: 15px 0;
+}
+
+/* Bilal CSS End */
+
+

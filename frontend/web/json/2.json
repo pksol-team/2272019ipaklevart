@@ -1,0 +1,137 @@
+{
+  "page": "serp",
+  "search_id": "f2817720-ed6d-4910-8c29-5f2ddf807b18",
+  "params": {
+    "check_in": "2019-01-13",
+    "check_out": "2019-01-20",
+    "marker": "11501.$1489",
+    "currency": "amd",
+    "locale": "en",
+    "rooms": [
+      {
+        "adults": 2,
+        "children": [
+          6,
+          8,
+          8
+        ]
+      }
+    ],
+    "locations_ids": [
+      12153
+    ],
+    "hotels_ids": [],
+    "destination": "Moscow, Russia ",
+    "host": "whitelabel.travelpayouts.com",
+    "flags": {
+      "auid": "CtY4vlwx6Ngs/7YnYKm9Ag==",
+      "ab": "main.532",
+      "deviceType": "desktop"
+    },
+    "popularity": "default"
+  },
+  "selected_hotels_ids": [],
+  "filters": {
+    "prices": {
+      "min": 8000,
+      "max": 56000,
+      "groups": [
+        0,
+        4000,
+        8000,
+        12000,
+        16000,
+        20000,
+        24000,
+        32000,
+        40000,
+        48000,
+        56000,
+        64000,
+        72000,
+        96000,
+        120000,
+        160000,
+        240000,
+        400000,
+        800000,
+        2147483647
+      ]
+    },
+    "stars": {
+      "2": {
+        "checked": true
+      },
+      "4": {
+        "checked": true
+      }
+    },
+    "ratings": {
+      "min": 3,
+      "max": 10,
+      "groups": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ]
+    },
+    "property_types": {
+      "1": {
+        "checked": true
+      }
+    },
+    "distance_to": {
+      "point": {},
+      "radius": 40.800000000000004,
+      "mode": "location_center"
+    },
+    "districts": {
+      "1416619": {
+        "checked": true
+      }
+    },
+    "proposals_options": {
+      "6": {
+        "checked": true
+      },
+      "29": {
+        "checked": true
+      }
+    },
+    "hotels_amenities": {
+      "4": {
+        "checked": true
+      },
+      "5": {
+        "checked": true
+      },
+      "12": {
+        "checked": true
+      },
+      "18": {
+        "checked": true
+      }
+    }
+  },
+  "sort": "price",
+  "limit": 10,
+  "offset": 0
+}

@@ -1,0 +1,41 @@
+{
+  "page": "hotel_page",
+  "search_id": "9fc70ef6-9d49-4c3b-8c3e-74bc323cba07",
+  "params": {
+    "check_in": "2020-01-03",
+    "check_out": "2020-01-05",
+    "marker": "11501.BAhJIgoxMTUwMQY6BkVU--25548f740cfe6d33430a109169398304a84dcb99.$1489",
+    "currency": "amd",
+    "locale": "en",
+    "rooms": [
+      {
+        "adults": 2,
+        "children": [
+          7,
+          7
+        ]
+      }
+    ],
+    "locations_ids": [
+      931
+    ],
+    "hotels_ids": [
+      1089
+    ],
+    "destination": "Yerevan",
+    "search_id": "9fc70ef6-9d49-4c3b-8c3e-74bc323cba07",
+    "hotel_name": "Aviatrans Hotel",
+    "host": "whitelabel.travelpayouts.com",
+    "flags": {
+      "auid": "CtY4vlwx6Ngs/7YnYKm9Ag==",
+      "ab": "main.534",
+      "deviceType": "desktop"
+    },
+    "popularity": "default"
+  },
+  "selected_hotels_ids": [],
+  "filters": {},
+  "sort": "popularity",
+  "limit": 1,
+  "offset": 0
+}

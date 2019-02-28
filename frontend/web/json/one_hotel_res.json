@@ -1,0 +1,1943 @@
+{
+  "search_id": "9fc70ef6-9d49-4c3b-8c3e-74bc323cba07",
+  "stop": false,
+  "locations": {
+    "931": {
+      "seasons": {},
+      "name": "Yerevan",
+      "country_name": "Armenia",
+      "country_id": 66,
+      "declensions": {},
+      "property_types_count": {
+        "by_types": {
+          "1": 172,
+          "2": 3,
+          "3": 2,
+          "4": 41,
+          "5": 1,
+          "6": 17,
+          "7": 87,
+          "8": 2,
+          "9": 1,
+          "12": 2
+        },
+        "total": 328
+      },
+      "timezone": "Asia/Yerevan",
+      "iatas": [],
+      "center_coords": {
+        "lat": 40.185825,
+        "lon": 44.515064
+      },
+      "full_name": "Yerevan, Armenia",
+      "pois_ids": [],
+      "latin_name": "Yerevan",
+      "latin_country_name": "Armenia",
+      "id": 931,
+      "zones": [
+        "eurasia",
+        "asia"
+      ],
+      "state_code": "",
+      "code": "EVN",
+      "country_code": "AM",
+      "latin_full_name": "Yerevan, Armenia",
+      "path": "66.931",
+      "parents_names": "Armenia",
+      "type": "City"
+    }
+  },
+  "districts": {
+    "1670688": {
+      "name": "Kentron",
+      "id": 1670688,
+      "path": "66.931.1670688"
+    }
+  },
+  "filters": {
+    "counters": {
+      "prices": null,
+      "property_types": {},
+      "stars": {},
+      "hotels_amenities": {},
+      "districts": {},
+      "ratings": null,
+      "distance_to_center": null,
+      "proposals_options": {},
+      "distance_to": {},
+      "agencies": {}
+    }
+  },
+  "hotels_amenities": {
+    "1": {
+      "slug": "parking",
+      "name": "Parking",
+      "category": "hotel"
+    },
+    "4": {
+      "slug": "tv",
+      "name": "TV",
+      "category": "room"
+    },
+    "5": {
+      "slug": "laundry",
+      "name": "Laundry service",
+      "category": "hotel"
+    },
+    "6": {
+      "slug": "air conditioning",
+      "name": "Air conditioning",
+      "category": "room"
+    },
+    "10": {
+      "slug": "wi-fi in public areas",
+      "name": "Wi-Fi in public areas",
+      "category": "hotel"
+    },
+    "12": {
+      "slug": "hairdryer",
+      "name": "Hairdryer",
+      "category": "room"
+    },
+    "14": {
+      "slug": "safe",
+      "name": "Safe box",
+      "category": "room"
+    },
+    "18": {
+      "slug": "24h. reception",
+      "name": "24 hour Front Desk Service",
+      "category": "hotel"
+    },
+    "21": {
+      "slug": "smoking room",
+      "name": "Smoking rooms",
+      "category": "hotel"
+    }
+  },
+  "total_hotels": 0,
+  "filtered_hotels": 0,
+  "hotels": [
+    {
+      "room_count": 66,
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "distance_to_center": 812,
+      "address": "Nalbandyan street 47/1",
+      "name": "My Hotel Yerevan",
+      "location_id": 931,
+      "photos_ids": [
+        "8200190178",
+        "8288357005",
+        "8288357006",
+        "8288357007",
+        "8288357008",
+        "8288357009",
+        "8288357010",
+        "8288357011",
+        "8288357012",
+        "8288357013",
+        "8288357016",
+        "8288357017",
+        "8288357018",
+        "8288357015",
+        "8288357014",
+        "8288357019",
+        "7332715856",
+        "7332715857",
+        "7332715858",
+        "7332715859",
+        "8340207342",
+        "6327787153",
+        "6327787154",
+        "6327787156"
+      ],
+      "minprice": 28,
+      "property_type": "HOTEL",
+      "rating": 9,
+      "stars": 3,
+      "year_opened": 2014,
+      "year_renovated": 0,
+      "locations_ids": [
+        931
+      ],
+      "popularity2": 39,
+      "locations_distances": {
+        "931": 812
+      },
+      "reviews_count": 1035,
+      "pois_distances": {
+        "70631": 11337,
+        "70632": 83150,
+        "325594": 59656
+      },
+      "description": "Set in a prime location of Yerevan, My Hotel Yerevan puts everything the city has to offer just outside your doorstep. Offering a variety of facilities and services, the hotel provides all you need for a good night's sleep. Free Wi-Fi in all rooms, 24-hour security, daily housekeeping, gift/souvenir shop, private check in/check out are just some of the facilities on offer. Television LCD/plasma screen, carpeting, complimentary instant coffee, complimentary tea, linens can be found in selected guestrooms. The hotel offers various recreational opportunities. My Hotel Yerevan is an excellent choice from which to explore Yerevan or to simply relax and rejuvenate.",
+      "location": {
+        "lat": 40.18514,
+        "lon": 44.52456
+      },
+      "photos_by_room_type": {
+        "1": {
+          "photos_ids": [
+            "6327787154",
+            "6327787160",
+            "6327787164",
+            "7097521165",
+            "6327787159",
+            "6327787155",
+            "6327787158",
+            "8235874967",
+            "8210853235",
+            "8210853236",
+            "8210853237",
+            "8210853238",
+            "8210853239",
+            "8210853240",
+            "8210853241",
+            "8210853242",
+            "8210853245",
+            "8210853246",
+            "8210853247",
+            "8210853248",
+            "8210853249",
+            "8210853250",
+            "8210853252",
+            "8210853253",
+            "8210853254",
+            "8210853255",
+            "8210853256",
+            "8235874966"
+          ],
+          "count": 0
+        },
+        "4": {
+          "photos_ids": [
+            "6327787156",
+            "6327787165",
+            "6327787158",
+            "8210853236",
+            "8210853237",
+            "8210853238",
+            "8210853239",
+            "8210853240",
+            "8210853241",
+            "8210853242",
+            "8235874966"
+          ],
+          "count": 0
+        },
+        "5": {
+          "photos_ids": [
+            "8235874954",
+            "8210853260",
+            "8210853261",
+            "8210853262",
+            "8210853263",
+            "8210853264",
+            "8210853265",
+            "8210853266",
+            "8210853267",
+            "8235874952",
+            "8235874953",
+            "8235874955",
+            "8235874956",
+            "8235874957",
+            "8235874958"
+          ],
+          "count": 0
+        },
+        "8": {
+          "photos_ids": [
+            "8210853260",
+            "8210853261",
+            "8210853262",
+            "8210853263",
+            "8210853264",
+            "8210853265",
+            "8210853266",
+            "8210853267",
+            "8210853268",
+            "8210853269",
+            "8210853270",
+            "8210853271",
+            "8210853272",
+            "8210853282",
+            "8210853283",
+            "8210853284",
+            "8210853285",
+            "8210853286",
+            "8210853287",
+            "8210853288",
+            "8210853289",
+            "8210853290",
+            "8210853291",
+            "8210853292",
+            "8210853293",
+            "8210853294",
+            "8210853295",
+            "8210853296",
+            "8210853297",
+            "8210853298",
+            "8210853299",
+            "8210853300",
+            "8210853301",
+            "8235874959",
+            "8235874960",
+            "8235874961",
+            "8235874962",
+            "8235874963",
+            "8235874964",
+            "8235874965"
+          ],
+          "count": 0
+        }
+      },
+      "districts_ids": [
+        1670688
+      ],
+      "chain": "",
+      "scoring": {},
+      "id": 26157975,
+      "popularity": 443642,
+      "amenitiesv2": {
+        "categories": {
+          "hotel": {
+            "values": [
+              {
+                "slug": "concierge_service",
+                "price": "",
+                "name": "Concierge service"
+              },
+              {
+                "slug": "laundry_service",
+                "price": "",
+                "name": "Laundry service"
+              },
+              {
+                "slug": "24_hours_front_desk_service",
+                "price": "",
+                "name": "24 hour Front Desk Service"
+              },
+              {
+                "slug": "wi-fi_in_public_areas",
+                "price": "",
+                "name": "Wi-Fi in public areas"
+              },
+              {
+                "slug": "smoking_room",
+                "price": "",
+                "name": "Smoking rooms"
+              },
+              {
+                "slug": "parking",
+                "price": "",
+                "name": "Parking"
+              }
+            ]
+          },
+          "language": {
+            "values": [
+              {
+                "slug": "english",
+                "price": "",
+                "name": "English"
+              },
+              {
+                "slug": "russian",
+                "price": "",
+                "name": "Russian"
+              }
+            ]
+          },
+          "room": {
+            "values": [
+              {
+                "slug": "shower",
+                "price": "",
+                "name": "Shower"
+              },
+              {
+                "slug": "mini_bar",
+                "price": "",
+                "name": "Mini bar"
+              },
+              {
+                "slug": "tv",
+                "price": "",
+                "name": "TV"
+              },
+              {
+                "slug": "safe_box",
+                "price": "",
+                "name": "Safe box"
+              },
+              {
+                "slug": "hairdryer",
+                "price": "",
+                "name": "Hairdryer"
+              },
+              {
+                "slug": "daily_housekeeping",
+                "price": "",
+                "name": "Daily Housekeeping"
+              },
+              {
+                "slug": "air_conditioning",
+                "price": "",
+                "name": "Air conditioning"
+              }
+            ]
+          }
+        }
+      },
+      "latin_name": "My Hotel Yerevan",
+      "is_rentals": false,
+      "has_rentals": false,
+      "photos_count": 24,
+      "latin_full_name": "",
+      "full_name": "",
+      "property_type_id": 1,
+      "amenities": [
+        4,
+        5,
+        10,
+        18,
+        1,
+        6,
+        12,
+        14,
+        21
+      ],
+      "badges": {
+        "badges": [
+          {
+            "show_on_search_card": true,
+            "code": "popular",
+            "popularity": 2
+          },
+          {
+            "show_on_search_card": true,
+            "code": "modern",
+            "popularity": 0
+          },
+          {
+            "show_on_search_card": true,
+            "code": "city",
+            "popularity": 1.6428572
+          }
+        ]
+      },
+      "weights": {},
+      "nearest_poi_by_category": {
+        "airport": 70631
+      },
+      "address_parent_ids": [
+        1670688,
+        931,
+        66
+      ],
+      "price_group": 2,
+      "median_minprice": 0,
+      "readable_reviews_count": 0,
+      "rating_reviews_count": 1035,
+      "best_photo_weight": 0,
+      "trending_speed": 0,
+      "debug_info": ""
+    }
+  ],
+  "proposals": {},
+  "property_types": {
+    "1": "Hotel"
+  },
+  "gates": {},
+  "proposals_options": {},
+  "hotels_map": {},
+  "trustyou": {
+    "26157975": {
+      "good_to_know": [
+        {
+          "count": 0.0329,
+          "ratio": "Good",
+          "score": 88,
+          "review_count": 34,
+          "category_name": "Modern Vibe",
+          "text": "Modern Hotel",
+          "relevance": 1.1139188,
+          "sentiment": "pos",
+          "short_text": "Modern Hotel",
+          "category_id": "vmod",
+          "highlight_list": [
+            {
+              "text": "New furniture",
+              "confidence": 48.33141,
+              "category_id_list": [
+                "11",
+                "ae0f",
+                "11i",
+                "vmod",
+                "171"
+              ],
+              "sentiment": ""
+            }
+          ]
+        },
+        {
+          "count": 0.0464,
+          "ratio": "Bad",
+          "score": 27,
+          "review_count": 48,
+          "category_name": "Hotel Building",
+          "text": "Hotel buildings could use some improvement",
+          "relevance": 1.0575775,
+          "sentiment": "neg",
+          "short_text": "Hotel buildings could use some improvement",
+          "category_id": "24",
+          "highlight_list": [
+            {
+              "text": "Run-down building",
+              "confidence": 58.060215,
+              "category_id_list": [
+                "24",
+                "244"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "No lift",
+              "confidence": 20.69385,
+              "category_id_list": [
+                "24",
+                "244",
+                "24j"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "No facilities",
+              "confidence": 11.815855,
+              "category_id_list": [
+                "24",
+                "244"
+              ],
+              "sentiment": ""
+            }
+          ]
+        },
+        {
+          "count": 0.0821,
+          "ratio": "Good",
+          "score": 87,
+          "review_count": 85,
+          "category_name": "Room Cleanliness",
+          "text": "Clean rooms",
+          "relevance": 1,
+          "sentiment": "pos",
+          "short_text": "Clean rooms",
+          "category_id": "f63a",
+          "highlight_list": [
+            {
+              "text": "Clean rom",
+              "confidence": 25.22697,
+              "category_id_list": [
+                "f63a",
+                "11",
+                "333"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Clean bed",
+              "confidence": 71.60288,
+              "category_id_list": [
+                "f63a",
+                "11",
+                "111",
+                "333",
+                "11b"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Clean rooms",
+              "confidence": 54.686638,
+              "category_id_list": [
+                "11",
+                "f63a",
+                "333"
+              ],
+              "sentiment": ""
+            }
+          ]
+        },
+        {
+          "count": 0.0744,
+          "ratio": "Good",
+          "score": 78,
+          "review_count": 77,
+          "category_name": "Room Size",
+          "text": "Spacious rooms",
+          "relevance": 1,
+          "sentiment": "pos",
+          "short_text": "Spacious rooms",
+          "category_id": "4b72",
+          "highlight_list": [
+            {
+              "text": "Spacious living room",
+              "confidence": 88.9885,
+              "category_id_list": [
+                "11",
+                "4b72",
+                "111"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Decent sized fridge",
+              "confidence": 81.75187,
+              "category_id_list": [
+                "11",
+                "4b72",
+                "11g",
+                "111"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Queen sized bed",
+              "confidence": 60.700413,
+              "category_id_list": [
+                "11",
+                "4b72",
+                "111",
+                "11b"
+              ],
+              "sentiment": ""
+            }
+          ]
+        }
+      ],
+      "sentiment_score_list": [
+        {
+          "count": 0.287,
+          "ratio": "Good",
+          "score": 95,
+          "review_count": 297,
+          "category_name": "Service",
+          "text": "World class service.",
+          "relevance": 1,
+          "sentiment": "pos",
+          "short_text": "Fantastic service",
+          "category_id": "15",
+          "highlight_list": [
+            {
+              "text": "Transfer properly",
+              "confidence": 26.767036,
+              "category_id_list": [
+                "15p",
+                "15"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Outstanding staff",
+              "confidence": 66.09972,
+              "category_id_list": [
+                "15"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Thanks to housekeeping staff",
+              "confidence": 82.91829,
+              "category_id_list": [
+                "15",
+                "ddbc",
+                "15e"
+              ],
+              "sentiment": ""
+            }
+          ],
+          "sub_category_list": [
+            {
+              "count": 0.1952,
+              "ratio": "",
+              "score": 99,
+              "review_count": 202,
+              "category_name": "Service Friendliness",
+              "text": "99% found the staff to be very friendly.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Friendly service",
+              "category_id": "ddbc",
+              "highlight_list": [
+                {
+                  "text": "Polite staff",
+                  "confidence": 76.95071,
+                  "category_id_list": [
+                    "ddbc",
+                    "15"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Sweet chamber maid",
+                  "confidence": 40.738033,
+                  "category_id_list": [
+                    "ddbc",
+                    "15",
+                    "15e"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Thanks to housekeeping staff",
+                  "confidence": 82.91829,
+                  "category_id_list": [
+                    "15",
+                    "ddbc",
+                    "15e"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0415,
+              "ratio": "",
+              "score": 96,
+              "review_count": 43,
+              "category_name": "Service Professionalism",
+              "text": "96% thought the service was very professional.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Professional service",
+              "category_id": "f8d2",
+              "highlight_list": [
+                {
+                  "text": "English speaking staff",
+                  "confidence": 96.58155,
+                  "category_id_list": [
+                    "f8d2",
+                    "15"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Professional service",
+                  "confidence": 31.301685,
+                  "category_id_list": [
+                    "f8d2",
+                    "15"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0203,
+              "ratio": "",
+              "score": 70,
+              "review_count": 21,
+              "category_name": "Reception",
+              "text": "70% said the reception staff was great.",
+              "relevance": 1,
+              "sentiment": "neu",
+              "short_text": "Great reception",
+              "category_id": "15b",
+              "highlight_list": [
+                {
+                  "text": "Counter failed",
+                  "confidence": 8.6725645,
+                  "category_id_list": [
+                    "15b",
+                    "15"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0145,
+              "ratio": "",
+              "score": 94,
+              "review_count": 15,
+              "category_name": "Housekeeping Staff",
+              "text": "Housekeeping was great, according to 94%.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Wonderful housekeeping",
+              "category_id": "15e",
+              "highlight_list": [
+                {
+                  "text": "Sweet chamber maid",
+                  "confidence": 40.738033,
+                  "category_id_list": [
+                    "ddbc",
+                    "15",
+                    "15e"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Thanks to housekeeping staff",
+                  "confidence": 82.91829,
+                  "category_id_list": [
+                    "15",
+                    "ddbc",
+                    "15e"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            }
+          ],
+          "summary_sentence_list": [
+            {
+              "text": "Great housekeeping with friendly and professional service, but mediocre reception.",
+              "confidence": 0,
+              "category_id_list": [
+                "15e",
+                "ddbc",
+                "f8d2",
+                "15",
+                "15b"
+              ],
+              "sentiment": "mixed"
+            }
+          ]
+        },
+        {
+          "count": 0.2464,
+          "ratio": "Good",
+          "score": 93,
+          "review_count": 255,
+          "category_name": "Location",
+          "text": "Terrific location.",
+          "relevance": 1.4628733,
+          "sentiment": "pos",
+          "short_text": "Great location",
+          "category_id": "14",
+          "highlight_list": [
+            {
+              "text": "Free transport from the airport",
+              "confidence": 66.17966,
+              "category_id_list": [
+                "14",
+                "22a"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Right in town center",
+              "confidence": 65.15523,
+              "category_id_list": [
+                "14",
+                "14h"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Beautiful tourists spots",
+              "confidence": 39.32546,
+              "category_id_list": [
+                "14c",
+                "14"
+              ],
+              "sentiment": ""
+            }
+          ],
+          "sub_category_list": [
+            {
+              "count": 0.03,
+              "ratio": "",
+              "score": 89,
+              "review_count": 31,
+              "category_name": "Distance to City Centre",
+              "text": "City centre within easy reach, said 89%.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Near city centre",
+              "category_id": "14h",
+              "highlight_list": [
+                {
+                  "text": "Close to city",
+                  "confidence": 49.6497,
+                  "category_id_list": [
+                    "14",
+                    "14h"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Right in town center",
+                  "confidence": 65.15523,
+                  "category_id_list": [
+                    "14",
+                    "14h"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Near downtown",
+                  "confidence": 14.382329,
+                  "category_id_list": [
+                    "14",
+                    "14h"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0271,
+              "ratio": "",
+              "score": 100,
+              "review_count": 28,
+              "category_name": "Shopping",
+              "text": "100% liked the proximity to shopping.",
+              "relevance": 1.3038911,
+              "sentiment": "pos",
+              "short_text": "Great shopping",
+              "category_id": "14e",
+              "highlight_list": [
+                {
+                  "text": "The nearest supermarket",
+                  "confidence": 44.825382,
+                  "category_id_list": [
+                    "14e",
+                    "14"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Big supermarket",
+                  "confidence": 5.8018208,
+                  "category_id_list": [
+                    "14e",
+                    "14"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0164,
+              "ratio": "",
+              "score": 100,
+              "review_count": 17,
+              "category_name": "Sightseeing",
+              "text": "100% liked the proximity to sightseeing.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Wonderful sightseeing",
+              "category_id": "14c",
+              "highlight_list": [
+                {
+                  "text": "Beautiful tourists spots",
+                  "confidence": 39.32546,
+                  "category_id_list": [
+                    "14c",
+                    "14"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0155,
+              "ratio": "",
+              "score": 43,
+              "review_count": 16,
+              "category_name": "Parking",
+              "text": "Not enough parking facilities, according to 57%.",
+              "relevance": 1.582884,
+              "sentiment": "neg",
+              "short_text": "Parking is rare",
+              "category_id": "14g",
+              "highlight_list": [
+                {
+                  "text": "Hard to find parking",
+                  "confidence": 31.23977,
+                  "category_id_list": [
+                    "14g",
+                    "14"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Parking tricky",
+                  "confidence": 18.096941,
+                  "category_id_list": [
+                    "14g",
+                    "14"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0116,
+              "ratio": "",
+              "score": 100,
+              "review_count": 12,
+              "category_name": "Distance to Public Transport",
+              "text": "Near to public transport, according to 100%.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Close to public transport",
+              "category_id": "14i",
+              "highlight_list": []
+            },
+            {
+              "count": 0.0097,
+              "ratio": "",
+              "score": 100,
+              "review_count": 10,
+              "category_name": "Restaurants \u0026 Bars",
+              "text": "100% enjoyed the restaurants \u0026 bars nearby.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Good restaurants \u0026 bars in the area",
+              "category_id": "14d",
+              "highlight_list": []
+            }
+          ],
+          "summary_sentence_list": [
+            {
+              "text": "Good location, close to public transport.",
+              "confidence": 0,
+              "category_id_list": [
+                "14i",
+                "14"
+              ],
+              "sentiment": "pos"
+            },
+            {
+              "text": "Central location with great sightseeing, dining out and shopping.",
+              "confidence": 0,
+              "category_id_list": [
+                "14d",
+                "14c",
+                "14h",
+                "14e"
+              ],
+              "sentiment": "pos"
+            },
+            {
+              "text": "Parking is rare.",
+              "confidence": 0,
+              "category_id_list": [
+                "14g"
+              ],
+              "sentiment": "neg"
+            }
+          ]
+        },
+        {
+          "count": 0.0126,
+          "ratio": "Good",
+          "score": 91,
+          "review_count": 13,
+          "category_name": "WiFi",
+          "text": "Internet works perfectly.",
+          "relevance": 1,
+          "sentiment": "pos",
+          "short_text": "Good internet service",
+          "category_id": "18",
+          "highlight_list": [
+            {
+              "text": "Good internet connection",
+              "confidence": 96.46504,
+              "category_id_list": [
+                "18",
+                "wifq"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Accessible wifi",
+              "confidence": 56.87673,
+              "category_id_list": [
+                "18",
+                "wifq"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Fast wifi",
+              "confidence": 57.579353,
+              "category_id_list": [
+                "18",
+                "wifq"
+              ],
+              "sentiment": ""
+            }
+          ],
+          "sub_category_list": [
+            {
+              "count": 0.0097,
+              "ratio": "",
+              "score": 70,
+              "review_count": 10,
+              "category_name": "WiFi Quality",
+              "text": "70% said the wifi quality was great.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Good wifi quality",
+              "category_id": "wifq",
+              "highlight_list": [
+                {
+                  "text": "Good internet connection",
+                  "confidence": 96.46504,
+                  "category_id_list": [
+                    "18",
+                    "wifq"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Accessible wifi",
+                  "confidence": 56.87673,
+                  "category_id_list": [
+                    "18",
+                    "wifq"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Fast wifi",
+                  "confidence": 57.579353,
+                  "category_id_list": [
+                    "18",
+                    "wifq"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            }
+          ],
+          "summary_sentence_list": [
+            {
+              "text": "Good wifi quality.",
+              "confidence": 0,
+              "category_id_list": [
+                "18",
+                "wifq"
+              ],
+              "sentiment": "pos"
+            }
+          ]
+        },
+        {
+          "count": 0.1488,
+          "ratio": "Good",
+          "score": 89,
+          "review_count": 154,
+          "category_name": "Breakfast",
+          "text": "Breakfast is good.",
+          "relevance": 1,
+          "sentiment": "pos",
+          "short_text": "Tasty breakfast",
+          "category_id": "131",
+          "highlight_list": [
+            {
+              "text": "I liked the breakfast buffet",
+              "confidence": 80.8427,
+              "category_id_list": [
+                "131"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Best breakfast coffee",
+              "confidence": 89.63751,
+              "category_id_list": [
+                "131"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Good breakfast",
+              "confidence": 85.897156,
+              "category_id_list": [
+                "131"
+              ],
+              "sentiment": ""
+            }
+          ],
+          "sub_category_list": [],
+          "summary_sentence_list": [
+            {
+              "text": "Tasty breakfast.",
+              "confidence": 0,
+              "category_id_list": [
+                "131"
+              ],
+              "sentiment": "pos"
+            }
+          ]
+        },
+        {
+          "count": 0.0454,
+          "ratio": "Good",
+          "score": 87,
+          "review_count": 47,
+          "category_name": "Food",
+          "text": "Food is delicious.",
+          "relevance": 1,
+          "sentiment": "pos",
+          "short_text": "Delicious food",
+          "category_id": "13",
+          "highlight_list": [
+            {
+              "text": "A lot of restaurant",
+              "confidence": 11.9366045,
+              "category_id_list": [
+                "13"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "So many food options",
+              "confidence": 48.669044,
+              "category_id_list": [
+                "13"
+              ],
+              "sentiment": ""
+            }
+          ],
+          "sub_category_list": [
+            {
+              "count": 0.0068,
+              "ratio": "",
+              "score": 100,
+              "review_count": 7,
+              "category_name": "Dining Experience",
+              "text": "100% loved the dining experience.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Great dining experience",
+              "category_id": "ef97",
+              "highlight_list": []
+            }
+          ],
+          "summary_sentence_list": [
+            {
+              "text": "Great dining experience.",
+              "confidence": 0,
+              "category_id_list": [
+                "13",
+                "ef97"
+              ],
+              "sentiment": "pos"
+            }
+          ]
+        },
+        {
+          "count": 0.2966,
+          "ratio": "Good",
+          "score": 77,
+          "review_count": 307,
+          "category_name": "Room",
+          "text": "Nice rooms.",
+          "relevance": 1,
+          "sentiment": "pos",
+          "short_text": "Great room",
+          "category_id": "11",
+          "highlight_list": [
+            {
+              "text": "Silent AC",
+              "confidence": 81.07979,
+              "category_id_list": [
+                "11",
+                "111a",
+                "11f",
+                "111"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Spacious living room",
+              "confidence": 88.9885,
+              "category_id_list": [
+                "11",
+                "4b72",
+                "111"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "Decent sized fridge",
+              "confidence": 81.75187,
+              "category_id_list": [
+                "11",
+                "4b72",
+                "11g",
+                "111"
+              ],
+              "sentiment": ""
+            }
+          ],
+          "sub_category_list": [
+            {
+              "count": 0.0744,
+              "ratio": "",
+              "score": 78,
+              "review_count": 77,
+              "category_name": "Room Size",
+              "text": "78% thought rooms were spacious.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Spacious rooms",
+              "category_id": "4b72",
+              "highlight_list": [
+                {
+                  "text": "Spacious living room",
+                  "confidence": 88.9885,
+                  "category_id_list": [
+                    "11",
+                    "4b72",
+                    "111"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Decent sized fridge",
+                  "confidence": 81.75187,
+                  "category_id_list": [
+                    "11",
+                    "4b72",
+                    "11g",
+                    "111"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Queen sized bed",
+                  "confidence": 60.700413,
+                  "category_id_list": [
+                    "11",
+                    "4b72",
+                    "111",
+                    "11b"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0821,
+              "ratio": "",
+              "score": 87,
+              "review_count": 85,
+              "category_name": "Room Cleanliness",
+              "text": "87% said rooms were clean.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Clean rooms",
+              "category_id": "f63a",
+              "highlight_list": [
+                {
+                  "text": "Clean rom",
+                  "confidence": 25.22697,
+                  "category_id_list": [
+                    "f63a",
+                    "11",
+                    "333"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Clean bed",
+                  "confidence": 71.60288,
+                  "category_id_list": [
+                    "f63a",
+                    "11",
+                    "111",
+                    "333",
+                    "11b"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Clean rooms",
+                  "confidence": 54.686638,
+                  "category_id_list": [
+                    "11",
+                    "f63a",
+                    "333"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0589,
+              "ratio": "",
+              "score": 41,
+              "review_count": 61,
+              "category_name": "Bathroom",
+              "text": "59% complained about the bathroom.",
+              "relevance": 1,
+              "sentiment": "neg",
+              "short_text": "Bathroom could be optimized",
+              "category_id": "11a",
+              "highlight_list": [
+                {
+                  "text": "Low water pressure",
+                  "confidence": 65.68058,
+                  "category_id_list": [
+                    "11",
+                    "5b6c",
+                    "111",
+                    "11a",
+                    "4b72"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Hot water doesn't work",
+                  "confidence": 47.88258,
+                  "category_id_list": [
+                    "11",
+                    "e51a",
+                    "11a"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0599,
+              "ratio": "",
+              "score": 79,
+              "review_count": 62,
+              "category_name": "Beds",
+              "text": "79% said the beds were comfortable.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Comfortable beds",
+              "category_id": "11b",
+              "highlight_list": [
+                {
+                  "text": "Queen sized bed",
+                  "confidence": 60.700413,
+                  "category_id_list": [
+                    "11",
+                    "4b72",
+                    "111",
+                    "11b"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Clean bed",
+                  "confidence": 71.60288,
+                  "category_id_list": [
+                    "f63a",
+                    "11",
+                    "111",
+                    "333",
+                    "11b"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Comfortable bed",
+                  "confidence": 54.25785,
+                  "category_id_list": [
+                    "11",
+                    "111",
+                    "11b"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0213,
+              "ratio": "",
+              "score": 42,
+              "review_count": 22,
+              "category_name": "Room Maintenance",
+              "text": "58% thought they were poorly maintained.",
+              "relevance": 1,
+              "sentiment": "neg",
+              "short_text": "Rooms need regular maintenance",
+              "category_id": "e51a",
+              "highlight_list": [
+                {
+                  "text": "Hot water doesn't work",
+                  "confidence": 47.88258,
+                  "category_id_list": [
+                    "11",
+                    "e51a",
+                    "11a"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0193,
+              "ratio": "",
+              "score": 85,
+              "review_count": 20,
+              "category_name": "Old/New Room",
+              "text": "85% appreciated the modern rooms.",
+              "relevance": 1.190221,
+              "sentiment": "pos",
+              "short_text": "New rooms",
+              "category_id": "ae0f",
+              "highlight_list": [
+                {
+                  "text": "New furniture",
+                  "confidence": 48.33141,
+                  "category_id_list": [
+                    "11",
+                    "ae0f",
+                    "11i",
+                    "vmod",
+                    "171"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0164,
+              "ratio": "",
+              "score": 15,
+              "review_count": 17,
+              "category_name": "Shower",
+              "text": "85% had problems with the shower.",
+              "relevance": 1,
+              "sentiment": "neg",
+              "short_text": "Shower can be a problem",
+              "category_id": "11m",
+              "highlight_list": []
+            },
+            {
+              "count": 0.0164,
+              "ratio": "",
+              "score": 80,
+              "review_count": 17,
+              "category_name": "Furniture",
+              "text": "80% enjoyed the furniture.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Good furniture",
+              "category_id": "11i",
+              "highlight_list": [
+                {
+                  "text": "New furniture",
+                  "confidence": 48.33141,
+                  "category_id_list": [
+                    "11",
+                    "ae0f",
+                    "11i",
+                    "vmod",
+                    "171"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Good furniture",
+                  "confidence": 49.325,
+                  "category_id_list": [
+                    "11",
+                    "11i"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0126,
+              "ratio": "",
+              "score": 53,
+              "review_count": 13,
+              "category_name": "Air Conditioning",
+              "text": "Only 53% thought the air conditioning was adequate.",
+              "relevance": 1,
+              "sentiment": "neu",
+              "short_text": "Standard air conditioning",
+              "category_id": "11f",
+              "highlight_list": [
+                {
+                  "text": "Silent AC",
+                  "confidence": 81.07979,
+                  "category_id_list": [
+                    "11",
+                    "111a",
+                    "11f",
+                    "111"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "NO air conditioning",
+                  "confidence": 65.496185,
+                  "category_id_list": [
+                    "11",
+                    "11f",
+                    "111"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Good air con",
+                  "confidence": 78.43368,
+                  "category_id_list": [
+                    "11",
+                    "11f",
+                    "111"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0116,
+              "ratio": "",
+              "score": 64,
+              "review_count": 12,
+              "category_name": "Kitchenette",
+              "text": "64% thought the kitchenette was ok.",
+              "relevance": 1,
+              "sentiment": "neu",
+              "short_text": "Kitchenette is acceptable",
+              "category_id": "11j",
+              "highlight_list": [
+                {
+                  "text": "Well equipped kitchen",
+                  "confidence": 81.678986,
+                  "category_id_list": [
+                    "e51a",
+                    "11",
+                    "11j"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "No kitchen",
+                  "confidence": 34.212914,
+                  "category_id_list": [
+                    "11",
+                    "11j"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0068,
+              "ratio": "",
+              "score": 55,
+              "review_count": 7,
+              "category_name": "Bathroom Cleanliness",
+              "text": "Cleanliness of the bathroom was average, said 55%.",
+              "relevance": 1,
+              "sentiment": "neu",
+              "short_text": "Bathroom is relatively clean",
+              "category_id": "343c",
+              "highlight_list": []
+            },
+            {
+              "count": 0.0077,
+              "ratio": "",
+              "score": 75,
+              "review_count": 8,
+              "category_name": "View",
+              "text": "75% thought the view was good.",
+              "relevance": 1,
+              "sentiment": "pos",
+              "short_text": "Great view",
+              "category_id": "11e",
+              "highlight_list": [
+                {
+                  "text": "Lovely view",
+                  "confidence": 39.27096,
+                  "category_id_list": [
+                    "11e",
+                    "11"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "Great view",
+                  "confidence": 51.699768,
+                  "category_id_list": [
+                    "11e",
+                    "11"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0048,
+              "ratio": "",
+              "score": 67,
+              "review_count": 5,
+              "category_name": "TV",
+              "text": "For only 67%, the tv was ok.",
+              "relevance": 1,
+              "sentiment": "neu",
+              "short_text": "Standard TV",
+              "category_id": "11h",
+              "highlight_list": []
+            }
+          ],
+          "summary_sentence_list": [
+            {
+              "text": "Spacious, tidy, modern rooms.",
+              "confidence": 0,
+              "category_id_list": [
+                "ae0f",
+                "4b72",
+                "f63a",
+                "11"
+              ],
+              "sentiment": "pos"
+            },
+            {
+              "text": "Great views, beds, and furniture.",
+              "confidence": 0,
+              "category_id_list": [
+                "11i",
+                "11b",
+                "11e"
+              ],
+              "sentiment": "pos"
+            },
+            {
+              "text": "Bathrooms are not great, but moderately clean.",
+              "confidence": 0,
+              "category_id_list": [
+                "11a",
+                "343c"
+              ],
+              "sentiment": "mixed"
+            },
+            {
+              "text": "Poorly maintained rooms with average A/C.",
+              "confidence": 0,
+              "category_id_list": [
+                "e51a",
+                "11f"
+              ],
+              "sentiment": "mixed"
+            },
+            {
+              "text": "Shower can be a problem.",
+              "confidence": 0,
+              "category_id_list": [
+                "11m"
+              ],
+              "sentiment": "neg"
+            },
+            {
+              "text": "Acceptable TV's and kitchenettes.",
+              "confidence": 0,
+              "category_id_list": [
+                "11j",
+                "11h"
+              ],
+              "sentiment": "neu"
+            }
+          ]
+        },
+        {
+          "count": 0.0502,
+          "ratio": "Bad",
+          "score": 33,
+          "review_count": 52,
+          "category_name": "Amenities",
+          "text": "Bad amenities.",
+          "relevance": 1.1260461,
+          "sentiment": "neg",
+          "short_text": "Amenities are not the best",
+          "category_id": "244",
+          "highlight_list": [
+            {
+              "text": "Run-down building",
+              "confidence": 58.060215,
+              "category_id_list": [
+                "24",
+                "244"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "No lift",
+              "confidence": 20.69385,
+              "category_id_list": [
+                "24",
+                "244",
+                "24j"
+              ],
+              "sentiment": ""
+            },
+            {
+              "text": "No facilities",
+              "confidence": 11.815855,
+              "category_id_list": [
+                "24",
+                "244"
+              ],
+              "sentiment": ""
+            }
+          ],
+          "sub_category_list": [
+            {
+              "count": 0.0464,
+              "ratio": "",
+              "score": 27,
+              "review_count": 48,
+              "category_name": "Hotel Building",
+              "text": "73% thought the building wasn't nice.",
+              "relevance": 1.0575775,
+              "sentiment": "neg",
+              "short_text": "Hotel buildings could use some improvement",
+              "category_id": "24",
+              "highlight_list": [
+                {
+                  "text": "Run-down building",
+                  "confidence": 58.060215,
+                  "category_id_list": [
+                    "24",
+                    "244"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "No lift",
+                  "confidence": 20.69385,
+                  "category_id_list": [
+                    "24",
+                    "244",
+                    "24j"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "No facilities",
+                  "confidence": 11.815855,
+                  "category_id_list": [
+                    "24",
+                    "244"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            },
+            {
+              "count": 0.0126,
+              "ratio": "",
+              "score": 0,
+              "review_count": 13,
+              "category_name": "Elevator",
+              "text": "100% complained about the elevator.",
+              "relevance": 1,
+              "sentiment": "neg",
+              "short_text": "Elevator in need of updating",
+              "category_id": "24j",
+              "highlight_list": [
+                {
+                  "text": "No lift",
+                  "confidence": 20.69385,
+                  "category_id_list": [
+                    "24",
+                    "244",
+                    "24j"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "There's no elevator",
+                  "confidence": 32.033558,
+                  "category_id_list": [
+                    "24",
+                    "244",
+                    "24j"
+                  ],
+                  "sentiment": ""
+                },
+                {
+                  "text": "No elevator",
+                  "confidence": 21.433567,
+                  "category_id_list": [
+                    "24",
+                    "244",
+                    "24j"
+                  ],
+                  "sentiment": ""
+                }
+              ]
+            }
+          ],
+          "summary_sentence_list": [
+            {
+              "text": "Hotel buildings could use some improvement.",
+              "confidence": 0,
+              "category_id_list": [
+                "24",
+                "244"
+              ],
+              "sentiment": "neg"
+            },
+            {
+              "text": "Elevator in need of updating.",
+              "confidence": 0,
+              "category_id_list": [
+                "24j"
+              ],
+              "sentiment": "neg"
+            }
+          ]
+        }
+      ],
+      "language_split": {
+        "de": {
+          "percentage": 3
+        },
+        "en": {
+          "percentage": 41
+        },
+        "fr": {
+          "percentage": 3
+        },
+        "pl": {
+          "percentage": 2
+        },
+        "ru": {
+          "percentage": 49
+        },
+        "zh": {
+          "percentage": 2
+        }
+      },
+      "trip_type_split": {
+        "trip_type_split": {
+          "couple": 17,
+          "family": 30,
+          "solo": 53
+        }
+      },
+      "summary": {
+        "reviews_count": 1035,
+        "score": 90,
+        "popularity": 12,
+        "text": "Excellent city hotel. Great location."
+      }
+    }
+  },
+  "hotels_suggests": [],
+  "hotels_by_id": {},
+  "room_types": {},
+  "discounts": {},
+  "expire_at": "1547024354",
+  "ttl": 1302,
+  "selected_hotels_ids": []
+}
