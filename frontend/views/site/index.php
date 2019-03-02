@@ -1000,7 +1000,7 @@
                             "search_target": "",
                             "active_tab": "avia",
                             "search_host": "jetradar.com",
-                            "hotels_host": "<?=Yii::$app->params['domain']?>site/hotel-list-view",
+                            "hotels_host": "<?= Yii::$app->params['domain']?>site/hotel-list-view",
                             "hotel": "",
                             "hotel_alt": "Hotellook helps you find the best accomodation prices online.",
                             "avia_alt": "",
