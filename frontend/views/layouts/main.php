@@ -75,28 +75,24 @@ $model = new common\models\LoginForm();
             <div class="container">
                 <ul class="quick-menu pull-left">
                     <li><a href="#">My Account</a></li>
-<!--                    <li class="ribbon">-->
-<!--                        <a href="#">English</a>-->
-<!--                        <ul class="menu mini">-->
-<!--                            <li><a href="#" title="Dansk">Dansk</a></li>-->
-<!--                            <li><a href="#" title="Deutsch">Deutsch</a></li>-->
-<!--                            <li class="active"><a href="#" title="English">English</a></li>-->
-<!--                            <li><a href="#" title="Español">Español</a></li>-->
-<!--                            <li><a href="#" title="Français">Français</a></li>-->
-<!--                            <li><a href="#" title="Italiano">Italiano</a></li>-->
-<!--                            <li><a href="#" title="Magyar">Magyar</a></li>-->
-<!--                            <li><a href="#" title="Nederlands">Nederlands</a></li>-->
-<!--                            <li><a href="#" title="Norsk">Norsk</a></li>-->
-<!--                            <li><a href="#" title="Polski">Polski</a></li>-->
-<!--                            <li><a href="#" title="Português">Português</a></li>-->
-<!--                            <li><a href="#" title="Suomi">Suomi</a></li>-->
-<!--                            <li><a href="#" title="Svenska">Svenska</a></li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
                 </ul>
                 <ul class="quick-menu pull-right">
-                    <li><a href="#travelo-login" class="soap-popupbox">LOGIN</a></li>
+                    
+                    <?php if (Yii::$app->user->identity != NULL): ?>
+                        
+                        <li class="ribbon currency">
+                            <a href="javascript:void(0);"><?= Yii::$app->user->identity->username; ?></a>
+                            <ul class="menu mini">
+                                <li><?= Html::a('Logout', ['site/logout'], ['data' => ['method' => 'post']]) ?></li>
+                            </ul>
+                        </li>
+
+                    <?php else: ?>
+                        <li><a href="#travelo-login" class="soap-popupbox">LOGIN</a></li>
+                    <?php endif ?>
+
                     <li><a href="#travelo-signup" class="soap-popupbox">SIGNUP</a></li>
+
                     <li class="ribbon currency">
                         <a href="#" title="">USD</a>
                         <ul class="menu mini">
@@ -590,7 +586,20 @@ $model = new common\models\LoginForm();
                             <li><a href="#" title="Svenska">Svenska</a></li>
                         </ul>
                     </li>
-                    <li><a href="#travelo-login" class="soap-popupbox">LOGIN</a></li>
+                    
+                    <?php if (Yii::$app->user->identity != NULL): ?>
+                        
+                        <li class="ribbon currency menu-color-skin opened">
+                            <a href="javascript:void(0);"><?= Yii::$app->user->identity->username; ?></a>
+                            <ul class="menu mini">
+                                <li><?= Html::a('Logout', ['site/logout'], ['data' => ['method' => 'post']]) ?></li>
+                            </ul>
+                        </li>
+
+                    <?php else: ?>
+                        <li><a href="#travelo-login" class="soap-popupbox">LOGIN</a></li>
+                    <?php endif ?>
+
                     <li><a href="#travelo-signup" class="soap-popupbox">SIGNUP</a></li>
                     <li class="ribbon currency menu-color-skin">
                         <a href="#">USD</a>
@@ -670,7 +679,7 @@ $model = new common\models\LoginForm();
             <div class="seperator"><label>OR</label></div> -->
 
 
-            <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
+            <?php $form = ActiveForm::begin(['id' => 'login-form', 'action' => '/site/login']); ?>
 
                 <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
 
