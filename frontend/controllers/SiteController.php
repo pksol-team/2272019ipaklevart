@@ -12,6 +12,7 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
+use function GuzzleHttp\json_decode;
 
 /**
  * Site controller
@@ -246,7 +247,7 @@ class SiteController extends Controller
 
     public function beforeAction($action)
     {            
-        if ($action->id == 'createhotels' or $action->id == 'showhotels' or $action->id == 'hotel_images') {
+        if ($action->id == 'createhotels' or $action->id == 'showhotels' or $action->id == 'hotel_images' or $action->id == 'showflights') {
             $this->enableCsrfValidation = false;
         }
 
@@ -286,45 +287,35 @@ class SiteController extends Controller
         return $slides;
     }
 
-    public function getFilter_value($array, $key, $value, $operator) {
+    public function actionShowflights() {
         
-        $result = array_filter($array, function ($item) use ($key, $value, $operator) {
-            
-            if ($operator == '>=') {
+        $query = (new \yii\db\Query())->select(['data'])->from('hotels_data')->where(['id' => [29]]);
+        $command = $query->createCommand();
+        $data = $command->queryAll();
+        $newArray = json_decode( $data[0]['data']);
+        $array = $newArray[0]->proposals;
 
-                if ( (float)$item->$key >= (float)$value ) {
-                    return true;
-                } 
+        $filtered_data = $this->getFilter_value($array, '', '', '');
+        
+        $limit = Yii::$app->request->post('limit');
+        $limited_data = [];
+
+        $index = 0;
+        
+        foreach ($filtered_data as $key => $value) {
+
+            $index++;
+
+            array_push($limited_data, $value);
+
+            if ($limit == $index) {
+                break;
             }
 
-            if ($operator == '<=') {
-                if ( (float)$item->$key <= (float)$value ) {
-                    return true;
-                }
-            }
+        }
 
-            if ($operator == '==' && gettype($value) != 'array') {
-                if ( (float)$item->$key == (float)$value ) {
-                    return true;
-                }           
-            }
+        return json_encode( $limited_data );
 
-
-            if ($operator == '==' && gettype($value) == 'array') {
-
-                $containsSearch = count(array_intersect($value, $item->amenities)) == count($value);
-                return $containsSearch;
-
-            }
-
-            if($key == '' && $value == '' && $operator == '') {
-                return true;
-            }
-
-            return false;
-        });
-
-        return $result;
     }
 
     public function actionShowhotels()
@@ -334,9 +325,6 @@ class SiteController extends Controller
         $command = $query->createCommand();
         $data = $command->queryAll();
         $array = json_decode($data[0]['data'])->hotels;
-
-
-
 
         $limit = Yii::$app->request->post('limit');
         $offset = Yii::$app->request->post('offset');
@@ -430,22 +418,48 @@ class SiteController extends Controller
         }
         return $ip;
     }
-
-    public function actionTesting() {
         
-        $query = (new \yii\db\Query())->select(['data'])->from('hotels_data')->where(['id' => [29]]);
-        $command = $query->createCommand();
-        $data = $command->queryAll();
+        
+    public function getFilter_value($array, $key, $value, $operator)
+    {
 
-        var_dump($data);
+        $result = array_filter($array, function ($item) use ($key, $value, $operator) {
 
-        $array = json_decode($data[0]['data'])->hotels;
+            if ($operator == '>=') {
+
+                if ((float)$item->$key >= (float)$value) {
+                    return true;
+                }
+            }
+
+            if ($operator == '<=') {
+                if ((float)$item->$key <= (float)$value) {
+                    return true;
+                }
+            }
+
+            if ($operator == '==' && gettype($value) != 'array') {
+                if ((float)$item->$key == (float)$value) {
+                    return true;
+                }
+            }
 
 
+            if ($operator == '==' && gettype($value) == 'array') {
 
+                $containsSearch = count(array_intersect($value, $item->amenities)) == count($value);
+                return $containsSearch;
+            }
 
+            if($key  == '' && $value == '' && $operator == '') {
+                return true;
+            }
+
+            return false;
+        });
+
+        return $result;
     }
-
 
     public function actionCreatehotels()
     {

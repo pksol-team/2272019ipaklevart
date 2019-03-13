@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     height: 100%;
 }
 
@@ -10,7 +9,7 @@ body {
     padding: 0 0 60px;
 }
 
-.wrap > .container {
+.wrap>.container {
     padding: 70px 15px 20px;
 }
 
@@ -37,6 +36,7 @@ body {
 }
 
 /* add sorting icons to gridview sort links */
+
 a.asc:after, a.desc:after {
     position: relative;
     top: 1px;
@@ -76,8 +76,7 @@ a.desc:after {
     white-space: nowrap;
 }
 
-.grid-view .filters input,
-.grid-view .filters select {
+.grid-view .filters input, .grid-view .filters select {
     min-width: 50px;
 }
 
@@ -96,26 +95,26 @@ a.desc:after {
 }
 
 /* align the logout "link" (button in form) of the navbar */
-.nav li > form > button.logout {
+
+.nav li>form>button.logout {
     padding: 15px;
     border: none;
 }
 
 @media(max-width:767px) {
-    .nav li > form > button.logout {
-        display:block;
+    .nav li>form>button.logout {
+        display: block;
         text-align: left;
         width: 100%;
         padding: 10px 15px;
     }
 }
 
-.nav > li > form > button.logout:focus,
-.nav > li > form > button.logout:hover {
+.nav>li>form>button.logout:focus, .nav>li>form>button.logout:hover {
     text-decoration: none;
 }
 
-.nav > li > form > button.logout:focus {
+.nav>li>form>button.logout:focus {
     outline: none;
 }
 
@@ -133,4 +132,8 @@ a.desc:after {
 
 .mewtwo-widget .mewtwo-flights-destination-country__name {
     line-height: 22px !important;
+}
+
+.mewtwo-widget section.mewtwo-hotels form .mewtwo-hotels-guests {
+    display: none !important;
 }
