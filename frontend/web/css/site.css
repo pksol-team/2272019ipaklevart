@@ -122,3 +122,15 @@ a.desc:after {
 .demo {
     margin-bottom: 10px;
 }
+
+.mewtwo-flights-destination__iata.mewtwo-flights-destination__iata--new {
+    display: none;
+}
+
+.mewtwo-flights-destination-country.mewtwo-flights-destination-country--new::after {
+    display: none !important;
+}
+
+.mewtwo-widget .mewtwo-flights-destination-country__name {
+    line-height: 22px !important;
+}

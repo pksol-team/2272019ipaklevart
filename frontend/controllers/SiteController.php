@@ -78,6 +78,14 @@ class SiteController extends Controller
 
         return $this->render('index');
     }
+
+    public function actionSlider()
+    {
+        $this->layout = 'slider';
+        return $this->render('slider');
+    }
+
+
     public function actionHotelListView()
     {
         return $this->render('hotel-list-view');
@@ -421,6 +429,21 @@ class SiteController extends Controller
           $ip=$_SERVER['REMOTE_ADDR'];
         }
         return $ip;
+    }
+
+    public function actionTesting() {
+        
+        $query = (new \yii\db\Query())->select(['data'])->from('hotels_data')->where(['id' => [29]]);
+        $command = $query->createCommand();
+        $data = $command->queryAll();
+
+        var_dump($data);
+
+        $array = json_decode($data[0]['data'])->hotels;
+
+
+
+
     }
 
 

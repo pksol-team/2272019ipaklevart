@@ -29,12 +29,13 @@ $model = new common\models\LoginForm();
     <!-- Theme Styles -->
     <link rel="stylesheet" href="/main/css/bootstrap.min.css">
     <link rel="stylesheet" href="/main/css/font-awesome.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/main/css/animate.min.css">
 
-    <!-- Current Page Styles -->
     <link rel="stylesheet" type="text/css" href="/slider-files/components/revolution_slider/css/settings.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/slider-files/components/revolution_slider/css/style.css" media="screen" />
+
+    <!-- Current Page Styles -->
     <link rel="stylesheet" type="text/css" href="/main/components/jquery.bxslider/jquery.bxslider.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/main/components/flexslider/flexslider.css" media="screen" />
 
@@ -49,6 +50,7 @@ $model = new common\models\LoginForm();
 
     <!-- Responsive Styles -->
     <link rel="stylesheet" href="/main/css/responsive.css">
+    <link rel="stylesheet" href="/css/flight.css">
 
     <!-- CSS for IE -->
     <!--[if lte IE 9]>
@@ -806,7 +808,7 @@ $model = new common\models\LoginForm();
 <link rel="stylesheet" href="/main/css/custom.css">
 
 <!-- Javascript -->
-<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 <script type="text/javascript" src="/main/js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="/main/js/jquery.noconflict.js"></script>
 <script type="text/javascript" src="/main/js/modernizr.2.7.1.min.js"></script>
@@ -820,9 +822,7 @@ $model = new common\models\LoginForm();
 <script type="text/javascript" src="/main/js/bootstrap.min.js"></script>
 
 <!-- load revolution slider scripts -->
-<!-- <script type="text/javascript" src="/slider-files/components/revolution_slider/js/jquery.themepunch.plugins.min.js"></script> -->
-    <script type="text/javascript" src="/slider-files/components/revolution_slider/js/jquery.themepunch.tools.min.js"></script>
-
+<script type="text/javascript" src="/slider-files/components/revolution_slider/js/jquery.themepunch.tools.min.js"></script>
 <script type="text/javascript" src="/slider-files/components/revolution_slider/js/jquery.themepunch.revolution.min.js"></script>
 
 <!-- load BXSlider scripts -->
@@ -834,9 +834,6 @@ $model = new common\models\LoginForm();
 <!-- parallax -->
 <script type="text/javascript" src="/main/js/jquery.stellar.min.js"></script>
 
-<!-- parallax -->
-<script type="text/javascript" src="/main/js/jquery.stellar.min.js"></script>
-
 <!-- waypoint -->
 <script type="text/javascript" src="/main/js/waypoints.min.js"></script>
 
@@ -844,92 +841,112 @@ $model = new common\models\LoginForm();
 <script type="text/javascript" src="/main/js/theme-scripts.js"></script>
 <script type="text/javascript" src="/main/js/scripts.js"></script>
 
+<script>
+
+function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+}
+
+tjq(document).ready(function ($) {
+    var iframe = $('#slider-Iframe');
+    $(window).resize(function(e) {
+        resizeIframe(iframe[0]);
+    });
+});
 
 
-    <script type="text/javascript">
-        tjq(document).ready(function() {
-            tjq('.revolution-slider').revolution(
-            {
-                sliderType:"standard",
-                sliderLayout:"auto",
-                dottedOverlay:"none",
-                delay:9000,
-                navigation: {
-                    keyboardNavigation:"off",
-                    keyboard_direction: "horizontal",
-                    mouseScrollNavigation:"off",
-                    mouseScrollReverse:"default",
-                    onHoverStop:"on",
-                    touch:{
-                        touchenabled:"on",
-                        swipe_threshold: 75,
-                        swipe_min_touches: 1,
-                        swipe_direction: "horizontal",
-                        drag_block_vertical: false
-                    }
-                    ,
-                    arrows: {
-                        style:"default",
-                        enable:true,
-                        hide_onmobile:false,
-                        hide_onleave:false,
-                        tmp:'',
-                        left: {
-                            h_align:"left",
-                            v_align:"center",
-                            h_offset:20,
-                            v_offset:0
-                        },
-                        right: {
-                            h_align:"right",
-                            v_align:"center",
-                            h_offset:20,
-                            v_offset:0
-                        }
-                    }
-                },
-                visibilityLevels:[1240,1024,778,480],
-                gridwidth:1170,
-                gridheight:646,
-                lazyType:"none",
-                shadow:0,
-                spinner:"spinner4",
-                stopLoop:"off",
-                stopAfterLoops:-1,
-                stopAtSlide:-1,
-                shuffle:"off",
-                autoHeight:"off",
-                hideThumbsOnMobile:"off",
-                hideSliderAtLimit:0,
-                hideCaptionAtLimit:0,
-                hideAllCaptionAtLilmit:0,
-                debugMode:false,
-                fallbacks: {
-                    simplifyAll:"off",
-                    nextSlideOnWindowFocus:"off",
-                    disableFocusListener:false,
-                }
-            });
-        });
-    </script>
+</script>
+
+
 
 <script type="text/javascript">
     tjq(document).ready(function() {
+        // tjq('.revolution-slider').revolution(
+        //     {
+        //         dottedOverlay:"none",
+        //         delay:8000,
+        //         startwidth:1170,
+        //         startheight:646,
+        //         onHoverStop:"on",
+        //         hideThumbs:10,
+        //         fullWidth:"on",
+        //         forceFullWidth:"on",
+        //         navigationType:"none",
+        //         shadow:0,
+        //         spinner:"spinner4",
+        //         hideTimerBar:"on",
+        //     });  
+
         tjq('.revolution-slider').revolution(
-            {
-                dottedOverlay:"none",
-                delay:8000,
-                startwidth:1170,
-                startheight:646,
+        {
+            sliderType:"standard",
+            sliderLayout:"auto",
+            dottedOverlay:"none",
+            delay:9000,
+            navigation: {
+                keyboardNavigation:"off",
+                keyboard_direction: "horizontal",
+                mouseScrollNavigation:"off",
+                mouseScrollReverse:"default",
                 onHoverStop:"on",
-                hideThumbs:10,
-                fullWidth:"on",
-                forceFullWidth:"on",
-                navigationType:"none",
-                shadow:0,
-                spinner:"spinner4",
-                hideTimerBar:"on",
-            });
+                touch:{
+                    touchenabled:"on",
+                    swipe_threshold: 75,
+                    swipe_min_touches: 1,
+                    swipe_direction: "horizontal",
+                    drag_block_vertical: false
+                }
+                ,
+                arrows: {
+                    style:"default",
+                    enable:true,
+                    hide_onmobile:false,
+                    hide_onleave:false,
+                    tmp:'',
+                    left: {
+                        h_align:"left",
+                        v_align:"center",
+                        h_offset:20,
+                        v_offset:0
+                    },
+                    right: {
+                        h_align:"right",
+                        v_align:"center",
+                        h_offset:20,
+                        v_offset:0
+                    }
+                }
+            },
+            visibilityLevels:[1240,1024,778,480],
+            gridwidth:1170,
+            gridheight:646,
+            lazyType:"none",
+            shadow:0,
+            spinner:"spinner4",
+            stopLoop:"off",
+            stopAfterLoops:-1,
+            stopAtSlide:-1,
+            shuffle:"off",
+            autoHeight:"off",
+            hideThumbsOnMobile:"off",
+            hideSliderAtLimit:0,
+            hideCaptionAtLimit:0,
+            hideAllCaptionAtLilmit:0,
+            debugMode:false,
+            fallbacks: {
+                simplifyAll:"off",
+                nextSlideOnWindowFocus:"off",
+                disableFocusListener:false,
+            }
+        });
+
+
+
+        tjq('.main-ticket-box').click(function (e) { 
+            e.preventDefault();
+            tjq(this).toggleClass('ticket--open ticket--expanded');
+
+        });
     });
 </script>
 <?php $this->endBody() ?>

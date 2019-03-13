@@ -73,19 +73,6 @@ $this->registerJsFile('/js/hotels/get_hotels.js');
                                     <div class="clearer"></div>
                                 </div>
                             </div>
-                            
-                            <div id="price-filter" class="panel-collapse collapse">
-                                <div class="panel-content">
-                                    
-                                    <input type="hidden" id="min-max" value="default">
-                                    
-                                    <div id="price-range"></div>
-                                    <br/>
-                                    <span class="min-price-label pull-left"></span>
-                                    <span class="max-price-label pull-right"></span>
-                                    <div class="clearer"></div>
-                                </div><!-- end content -->
-                            </div>
                         </div>
 
                         <div class="panel style1 arrow-right">

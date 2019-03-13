@@ -1,5 +1,7 @@
 <?php
 return [
     'adminEmail' => 'admin@example.com',
-    'domain' => 'travelapi.test/',
+    // 'domain' => 'http://trevel.loc/',
+    'domain' => 'https://travelapi.clickhost.pk/',
+    
 ];
