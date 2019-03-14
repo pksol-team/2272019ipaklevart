@@ -1,9 +1,9 @@
 tjq(document).ready(function() {
-	var limit = 3;
+	var limit = 10;
 	GetFlights(limit);
 
 	tjq("#load_more").click(function() {
-		limit += 3;
+		limit += 10;
 		GetFlights(limit);
 	});
 });
@@ -151,6 +151,8 @@ function show_flights(res) {
 	if (res) {
 
 		if (res.length > 0) {
+			
+			tjq("#flights").html("");
 
 			$.each(res, function(index, val) {
 
