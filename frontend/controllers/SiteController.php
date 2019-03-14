@@ -287,6 +287,24 @@ class SiteController extends Controller
         return $slides;
     }
 
+    public function sort_by_price($data) {
+
+        $result = array_filter($data, function ($item) {
+
+            var_dump(array_keys($item));
+
+            // if ((float)$item->$key >= (float)$value) {
+            //     return true;
+            // }
+
+            // return false;
+
+        });
+
+        // return $result;
+
+    }
+
     public function actionShowflights() {
         
         $query = (new \yii\db\Query())->select(['data'])->from('hotels_data')->where(['id' => [29]]);
@@ -295,9 +313,19 @@ class SiteController extends Controller
         $newArray = json_decode( $data[0]['data']);
         $array = $newArray[0]->proposals;
 
-        $filtered_data = $this->getFilter_value($array, '', '', '');
-        
         $limit = Yii::$app->request->post('limit');
+        $sort = Yii::$app->request->post('sort');
+
+        $filtered_data = $this->getFilter_value($array, '', '', '');
+
+        if($sort != 'default') {
+            
+            $filtered_data = $this->sort_by_price($filtered_data);
+
+        }
+
+        exit();
+        
         $limited_data = [];
 
         $index = 0;

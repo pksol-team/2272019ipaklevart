@@ -21,7 +21,6 @@ $this->registerJsFile('/js/flights/get-flights.js', ['depends' => 'yii\web\Jquer
         <div id="main">
             <div class="row">
                 <div class="col-sm-4 col-md-3">
-                    <h4 class="search-results-title"><i class="soap-icon-search"></i><b>1,984</b> results found.</h4>
                     <div class="toggle-container filters-container">
                         <div class="panel style1 arrow-right">
                             <h4 class="panel-title">
@@ -32,7 +31,7 @@ $this->registerJsFile('/js/flights/get-flights.js', ['depends' => 'yii\web\Jquer
                                 <div class="panel-content">
                                     <ul class="check-square filters-option">
                                         <li>
-                                            <a href="#" data-value="minprice">
+                                            <a href="#" data-value="price">
                                                 by <strong>Price</strong>
                                             </a>
                                         </li>

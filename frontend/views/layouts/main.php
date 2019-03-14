@@ -42,6 +42,8 @@ $model = new common\models\LoginForm();
     <!-- Main Style -->
     <link id="main-style" rel="stylesheet" href="/main/css/style.css">
 
+    <script src="/js/date.js"></script>
+
     <!-- Updated Styles -->
     <link rel="stylesheet" href="/main/css/updates.css">
 
@@ -847,14 +849,6 @@ function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
 }
 
-tjq(document).ready(function ($) {
-    var iframe = $('#slider-Iframe');
-    $(window).resize(function(e) {
-        resizeIframe(iframe[0]);
-    });
-});
-
-
 </script>
 
 
@@ -942,7 +936,7 @@ tjq(document).ready(function ($) {
 
 
 
-        tjq('.main-ticket-box').click(function (e) { 
+        tjq(document).on('click', '.main-ticket-box', function (e) { 
             e.preventDefault();
             tjq(this).toggleClass('ticket--open ticket--expanded');
 
