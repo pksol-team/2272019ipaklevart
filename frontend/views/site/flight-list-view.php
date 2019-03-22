@@ -65,20 +65,24 @@ $this->registerJsFile('/js/flights/get-flights.js', ['depends' => 'yii\web\Jquer
                                 <a data-toggle="collapse" href="#flight-stops-filter" class="collapsed">Numbers of stops</a>
                             </h4>
                             <div id="flight-stops-filter" class="panel-collapse collapse">
+                                
+                                <input type="hidden" id="max_stops" value="default">
+
                                 <div class="panel-content">
                                     <ul class="check-square filters-option">
-                                        <li><a href="#">1 Stop</a></li>
-                                        <li><a href="#">2 Stops</a></li>
-                                        <li class="active"><a href="#">3 Stops</a></li>
-                                        <li><a href="#">MultiStops</a></li>
+                                        
+                                        <li><a href="#" data-value="1">1 Stop</a></li>
+                                        <li><a href="#" data-value="2">2 Stops</a></li>
+                                        <li><a href="#" data-value="3">3 Stops</a></li>
+                                        <li><a href="#" data-value="1000">MultiStops</a></li>
+
                                     </ul>
-                                    <a class="button btn-mini">MORE</a>
                                 </div>
                             </div>
                         </div>
                         <div class="panel style1 arrow-right">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" href="#price-filter" class="collapsed">Price</a>
+                                <a data-toggle="collapse" href="#price-filter" class="collapsed">Airfares</a>
                             </h4>
                             <div id="price-filter" class="panel-collapse collapse">
                                 <div class="panel-content">
@@ -117,22 +121,6 @@ $this->registerJsFile('/js/flights/get-flights.js', ['depends' => 'yii\web\Jquer
                                     <br />
                                     <span class="min-duration_stop-label pull-left"></span>
                                     <span class="max-duration_stop-label pull-right"></span>
-                                    <div class="clearer"></div>
-                                </div>
-                                <!-- end content -->
-                            </div>
-                        </div>
-                        <div class="panel style1 arrow-right">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" href="#airfares" class="collapsed">Airfares</a>
-                            </h4>
-                            <div id="airfares" class="panel-collapse collapse">
-                                <div class="panel-content">
-                                    <input type="hidden" id="airfaressmin-max" value="default">
-                                    <div id="airfaress"></div>
-                                    <br />
-                                    <span class="min-airfaress-label pull-left"></span>
-                                    <span class="max-airfaress-label pull-right"></span>
                                     <div class="clearer"></div>
                                 </div>
                                 <!-- end content -->

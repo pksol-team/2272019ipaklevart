@@ -287,23 +287,102 @@ class SiteController extends Controller
         return $slides;
     }
 
-    public function sort_by_price($data) {
+    public function PriceFilter($filtered_data, $min_max)
+    {
+      
+        $min = explode('-', $min_max)[0];
+        $max = explode('-', $min_max)[1];
 
-        $result = array_filter($data, function ($item) {
+        $result = array_filter($filtered_data, function ($item) use ($min, $max) {
+            
+            $count = 0;
+            foreach($item->terms as $value) {
 
-            var_dump(array_keys($item));
+                if( $value->price < $max && $value->price > $min ) {
+                    $count++;
+                }
+    
+            }
 
-            // if ((float)$item->$key >= (float)$value) {
-            //     return true;
-            // }
-
-            // return false;
+            if($count == 1) {
+                return true;
+            } else {
+                return false;
+            }
 
         });
 
-        // return $result;
+        return $result;
 
     }
+
+    public function StopFilter($filtered_data, $max_stops) {
+        
+        if($max_stops == '1000') {
+            
+            $result = array_filter($filtered_data, function ($item) use ($max_stops) {
+                if($item->max_stops > 1) {
+                    return true;
+                } else {
+                    return false;
+                }
+
+            });
+
+        } else {
+
+            $result = array_filter($filtered_data, function ($item) use ($max_stops) {
+
+                if($item->max_stops == $max_stops) {
+                    return true;
+                } else {
+                    return false;
+                }
+
+            });
+        }
+
+        return $result;
+
+    }
+
+
+    // public function StopFilter($filtered_data, $max_stops) {
+
+    //     $max_stops = explode(',', $max_stops);
+        
+    //     if(in_array('1000', $max_stops)) {
+
+    //         $result = array_filter($filtered_data, function ($item) use ($max_stops) {
+
+    //             if($item->max_stops > 1) {
+    //                 return true;
+    //             } else {
+    //                 return false;
+    //             }
+
+    //         });
+
+            
+    //     } else {
+            
+    //         $result = array_filter($filtered_data, function ($item) use ($max_stops) {
+
+    //             if(in_array($item->max_stops, $max_stops)) {
+    //                 return true;
+    //             } else {
+    //                 return false;
+    //             }
+
+    //         });
+
+    //     }
+
+    //     var_dump($result);
+
+    //     // return $result;
+
+    // }
 
     public function actionShowflights() {
         
@@ -313,20 +392,47 @@ class SiteController extends Controller
         $newArray = json_decode( $data[0]['data']);
         $array = $newArray[0]->proposals;
 
-        $limit = Yii::$app->request->post('limit');
-        $sort = Yii::$app->request->post('sort');
-
         $filtered_data = $this->getFilter_value($array, '', '', '');
 
-        if($sort != 'default') {
-            
-            $filtered_data = $this->sort_by_price($filtered_data);
+
+        $limit = Yii::$app->request->post('limit');
+        $min_max = Yii::$app->request->post('min_max');
+        $max_stops = Yii::$app->request->post('stops');
+        $min_max_duration = Yii::$app->request->post('min_max_duration');
+        $travel_range = Yii::$app->request->post('travel_range');
+
+
+        
+        $limited_data = [];
+
+        if ($min_max != 'default') {
+            $filtered_data = $this->PriceFilter($filtered_data, $min_max);
+        }
+
+        if ($max_stops != 'default') {
+            $filtered_data = $this->StopFilter($filtered_data, $max_stops);
+        }
+
+        if ($min_max_duration != 'default') {
+
+
+            $min_dur = explode('-', $min_max_duration)[0];
+            $filtered_data = $this->getFilter_value($filtered_data, 'min_stop_duration', $min_dur, '>=');
+    
+            $max_dur = explode('-', $min_max_duration)[1];
+            $filtered_data = $this->getFilter_value($filtered_data, 'max_stop_duration', $max_dur, '<=');
 
         }
 
-        exit();
-        
-        $limited_data = [];
+        if ($travel_range != 'default') {
+
+            $min_tdur = explode('-', $travel_range)[0];
+            $filtered_data = $this->getFilter_value($filtered_data, 'total_duration', $min_tdur, '>=');
+    
+            $max_tdur = explode('-', $travel_range)[1];
+            $filtered_data = $this->getFilter_value($filtered_data, 'total_duration', $max_tdur, '<=');
+
+        }
 
         $index = 0;
         
@@ -479,7 +585,7 @@ class SiteController extends Controller
                 return $containsSearch;
             }
 
-            if($key  == '' && $value == '' && $operator == '') {
+            if($key == '' && $value == '' && $operator == '') {
                 return true;
             }
 

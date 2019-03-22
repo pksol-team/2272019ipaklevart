@@ -10,15 +10,21 @@ tjq(document).ready(function() {
 
 function GetFlights(limit) {
 
-    var sort = tjq('#sort_filter_hidden').val();	
+	var min_max = tjq('#min-max').val();
+	var stops = tjq('#max_stops').val();
+	var min_max_duration = tjq('#duration-min-max').val();
 
+	var travel_range = tjq('#travel-rangemin-max').val();
 
 	tjq.ajax({
 		url: "/site/showflights",
 		type: "POST",
 		data: {
-			limit: limit
-			sort: sort
+			limit: limit,
+			min_max: min_max,
+			stops: stops,
+			min_max_duration: min_max_duration,
+			travel_range: travel_range
 		},
 
 		success: function(res) {
@@ -44,11 +50,64 @@ tjq("#sort-filter li").click(function() {
 	GetFlights(limit);
 });
 
+
+
+tjq("#flight-stops-filter li").click(function() {
+	var $this = tjq(this);
+	var val = "default";
+
+	$this.siblings("li").removeClass("active");
+
+	if ($this.hasClass("active")) {
+		val = $this.find("a").attr("data-value");
+	}
+
+	tjq("#max_stops").val(val);
+
+	var limit = 10;
+
+	GetFlights(limit);
+});
+
+
+
+// tjq('#flight-stops-filter li').click(function(e) {
+    
+//     var $this = tjq(this);
+// 	var activeOptions = $this.parent().find('.active');
+	
+//     var values = 'default,';
+	
+// 	$this.siblings("li").removeClass("active");
+
+// 	if ($this.hasClass("active")) {
+// 		val = $this.find("a").attr("data-value");
+// 	}
+
+//     if (activeOptions.length > 0 ) {
+        
+//         var values = '';
+//         activeOptions.each(function(index, el) {
+//             var $el = tjq(el);
+//             var list = $el.children('a').attr('data-value');
+//             values += list+',';
+//         });
+//     }
+
+//     tjq('#max_stops').val( values.slice(0,-1) );
+// 	var limit = 10;
+	
+//     GetFlights(limit);
+
+// });
+
+
+
 tjq("#price-range").slider({
 	range: true,
 	min: 0,
-	max: 1000,
-	values: [0, 1000],
+	max: 2000,
+	values: [0, 2000],
 	slide: function(event, ui) {
 		tjq(".min-price-label").html("$" + ui.values[0]);
 		tjq(".max-price-label").html("$" + ui.values[1]);
@@ -60,17 +119,19 @@ tjq("#price-range").slider({
 	}
 });
 
+
+
 tjq(".min-price-label").html("$" + tjq("#price-range").slider("values", 0));
 tjq(".max-price-label").html("$" + tjq("#price-range").slider("values", 1));
 
 tjq("#duration_stop").slider({
 	range: true,
-	min: 0,
-	max: 1000,
-	values: [0, 1000],
+	min: 45,
+	max: 1425,
+	values: [45, 1425],
 	slide: function(event, ui) {
-		tjq(".min-duration_stop-label").html("$" + ui.values[0]);
-		tjq(".max-duration_stop-label").html("$" + ui.values[1]);
+		tjq(".min-duration_stop-label").html( converttoHm(ui.values[0]) );
+		tjq(".max-duration_stop-label").html( converttoHm(ui.values[1]) );
 	},
 	stop: function(event, ui) {
 		tjq("#duration-min-max").val(ui.values[0] + "-" + ui.values[1]);
@@ -78,12 +139,36 @@ tjq("#duration_stop").slider({
 		GetFlights(limit);
 	}
 });
+
 tjq(".min-duration_stop-label").html(
-	"$" + tjq("#duration_stop").slider("values", 0)
+	converttoHm( tjq("#duration_stop").slider("values", 0) )
 );
 tjq(".max-duration_stop-label").html(
-	"$" + tjq("#duration_stop").slider("values", 1)
+	converttoHm( tjq("#duration_stop").slider("values", 1) )
 );
+
+
+
+function converttoHm($minutes) {
+	
+	var hours = Math.floor( $minutes / 60);          
+	var minutes = $minutes % 60;
+
+	if(hours == 0)  {
+		return minutes+'m';
+	} 
+
+	if(minutes == 0)  {
+		return hours+'h';
+	} 
+	
+	return hours+'h '+minutes+'m';
+	
+}
+
+
+
+
 
 tjq("#airfaress").slider({
 	range: true,
@@ -125,27 +210,35 @@ tjq(".max-departure_time-label").html(
 	"$" + tjq("#departure_time").slider("values", 1)
 );
 
+
 tjq("#travel-range").slider({
 	range: true,
-	min: 0,
-	max: 1000,
-	values: [0, 1000],
+	min: 190,
+	max: 1720,
+	values: [190, 1720],
 	slide: function(event, ui) {
-		tjq(".min-travel-range-label").html("$" + ui.values[0]);
-		tjq(".max-travel-range-label").html("$" + ui.values[1]);
+		tjq(".min-travel-range-label").html( converttoHm(ui.values[0]) );
+		tjq(".max-travel-range-label").html( converttoHm(ui.values[1]) );
 	},
 	stop: function(event, ui) {
+		
 		tjq("#travel-rangemin-max").val(ui.values[0] + "-" + ui.values[1]);
 		var limit = 10;
 		GetFlights(limit);
+
 	}
 });
+
+
 tjq(".min-travel-range-label").html(
-	"$" + tjq("#travel-range").slider("values", 0)
+	converttoHm( tjq("#travel-range").slider("values", 0) )
 );
 tjq(".max-travel-range-label").html(
-	"$" + tjq("#travel-range").slider("values", 1)
+	converttoHm( tjq("#travel-range").slider("values", 1) )
 );
+
+
+
 
 
 
@@ -541,13 +634,23 @@ function show_flights(res) {
 							</div> \
 						</div>';
 
-				
 				tjq("#flights").append(html);
+
+
+
 			});
 
+			
+
+			// if (tjq('#flights').find('.flight-list').length == res.length) {
+            //     tjq('#load_more').hide();
+            // } else {
+            //     tjq('#load_more').show();
+            // }
+
 		} else {
-			tjq('#flight').html('');
-			tjq('#flight').append('<article class="box"><p> No Records! </p></article>');
+			tjq('#flights').html('');
+			tjq('#flights').append('<article class="box"><p> No Records! </p></article>');
 			tjq('#load_more').hide();
 		}
 
