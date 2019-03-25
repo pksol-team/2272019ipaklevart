@@ -180,15 +180,28 @@ $this->registerJsFile('/js/flights/get-flights.js', ['depends' => 'yii\web\Jquer
                             <div id="airlines-filter" class="panel-collapse collapse">
                                 <div class="panel-content">
                                     <ul class="check-square filters-option">
-                                        <li><a href="#">Major Airline<small>($620)</small></a></li>
-                                        <li><a href="#">United Airlines<small>($982)</small></a></li>
-                                        <li class="active"><a href="#">delta airlines<small>($1,127)</small></a></li>
-                                        <li><a href="#">Alitalia<small>($2,322)</small></a></li>
-                                        <li><a href="#">US airways<small>($3,158)</small></a></li>
-                                        <li><a href="#">Air France<small>($4,239)</small></a></li>
-                                        <li><a href="#">Air tahiti nui<small>($5,872)</small></a></li>
+
+                                        <li><a href="#" data-value="SU"> Aeroflot </a></li>
+                                        <li><a href="#" data-value="SK"> SAS Scandinavian </a></li>
+                                        <li><a href="#" data-value="PC"> Pegasus Airlines </a></li>
+                                        <li><a href="#" data-value="CL"> Lufthansa CityLine </a></li>
+                                        <li><a href="#" data-value="RO"> Tarom </a></li>
+                                        <li><a href="#" data-value="YW"> Iberia Regional by Air Nostrum </a></li>
+                                        <li><a href="#" data-value="A3"> Aegean Airlines </a></li>
+                                        <li><a href="#" data-value="EN"> AirDolomiti </a></li>
+                                        <li><a href="#" data-value="JU"> Air Serbia </a></li>
+                                        <li><a href="#" data-value="LH"> Lufthansa </a></li>
+                                        <li><a href="#" data-value="AF"> Air France </a></li>
+                                        <li><a href="#" data-value="VY"> Vueling </a></li>
+                                        <li><a href="#" data-value="TK"> Turkish Airlines </a></li>
+                                        <li><a href="#" data-value="OS"> Austrian Airlines </a></li>
+                                        <li><a href="#" data-value="XG"> SunExpress Deutschland </a></li>
+                                        <li><a href="#" data-value="AZ"> Alitalia </a></li>
+                                        <li><a href="#" data-value="HV"> Transavia </a></li>
+                                        <li><a href="#" data-value="KL"> KLM </a></li>
+                                        <li><a href="#" data-value="LX"> SWISS </a></li>
+
                                     </ul>
-                                    <a class="button btn-mini">MORE</a>
                                 </div>
                             </div>
                         </div>
@@ -199,12 +212,28 @@ $this->registerJsFile('/js/flights/get-flights.js', ['depends' => 'yii\web\Jquer
                             <div id="travel-agencies" class="panel-collapse collapse">
                                 <div class="panel-content">
                                     <ul class="check-square filters-option">
-                                        <li><a href="#">All<small>Only</small></a></li>
-                                        <li><a href="#">CompassFlights<small>Only</small></a></li>
-                                        <li class="active"><a href="#">Flydubai<small>Only</small></a></li>
-                                        <li><a href="#">SmartFares<small>Only</small></a></li>
+                                        
+                                        <li><a href="#" data-value="SU"> Aeroflot </a></li>
+                                        <li><a href="#" data-value="SK"> SAS Scandinavian </a></li>
+                                        <li><a href="#" data-value="PC"> Pegasus Airlines </a></li>
+                                        <li><a href="#" data-value="CL"> Lufthansa CityLine </a></li>
+                                        <li><a href="#" data-value="RO"> Tarom </a></li>
+                                        <li><a href="#" data-value="YW"> Iberia Regional by Air Nostrum </a></li>
+                                        <li><a href="#" data-value="A3"> Aegean Airlines </a></li>
+                                        <li><a href="#" data-value="EN"> AirDolomiti </a></li>
+                                        <li><a href="#" data-value="JU"> Air Serbia </a></li>
+                                        <li><a href="#" data-value="LH"> Lufthansa </a></li>
+                                        <li><a href="#" data-value="AF"> Air France </a></li>
+                                        <li><a href="#" data-value="VY"> Vueling </a></li>
+                                        <li><a href="#" data-value="TK"> Turkish Airlines </a></li>
+                                        <li><a href="#" data-value="OS"> Austrian Airlines </a></li>
+                                        <li><a href="#" data-value="XG"> SunExpress Deutschland </a></li>
+                                        <li><a href="#" data-value="AZ"> Alitalia </a></li>
+                                        <li><a href="#" data-value="HV"> Transavia </a></li>
+                                        <li><a href="#" data-value="KL"> KLM </a></li>
+                                        <li><a href="#" data-value="LX"> SWISS </a></li>
+
                                     </ul>
-                                    <a class="button btn-mini">MORE</a>
                                 </div>
                             </div>
                         </div>
